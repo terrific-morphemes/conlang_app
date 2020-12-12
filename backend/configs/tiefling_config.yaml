@@ -1,0 +1,38 @@
+data:
+    lexicon_fname: ./data/lexemes.csv
+    phoneme_fname: ./data/phonemes.csv
+    morpheme_fname: ./data/morphemes.csv
+    sentences_fname: ./data/sentences.csv
+params:
+    word_order: sov
+    locatives: post
+    noun_class: none
+    noun_case: none
+    verb_copula: no
+    verb_tense: low
+    verb_person: none
+    verb_number: none
+    verb_gender: none
+    verb_aspect: low
+    verb_mood: low
+    verb_attitudinal: none
+    min_syl_per_word: 1
+    max_syl_per_word: 3
+    min_syl_per_morpheme: 0
+    max_syl_per_morpheme: 1
+
+    pronouns: low
+    onomatopoeia: none
+    phon_cons_difficulty: low
+    phon_cons_number: med
+    phon_vowel_difficulty: low
+    phon_vowel_number: low
+    phon_syl_cons: none
+    phon_tone: none
+    phon_gemination: no
+    phon_vowel_length: no
+    phon_initial_clusters: none
+    phon_final_clusters: none
+    phon_diphthongs: none
+    phon_non_egressive: no
+

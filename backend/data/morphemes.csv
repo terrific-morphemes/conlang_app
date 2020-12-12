@@ -1,0 +1,89 @@
+morpheme,category
+With him,locatives_accompaniment
+With sugar,locatives_accompaniment
+Since 1988,locatives_duration
+For 2 days/weeks/months/years,locatives_duration
+For 2 hours,locatives_duration
+As a teacher,locatives_identity
+With a pen,locatives_instrument
+By myself,locatives_instrument
+By bus,locatives_instrument
+In this book,locatives_media
+In that movie/song/picture,locatives_media
+On TV,locatives_media
+Over the bridge,locatives_movement_crossing
+Across the street,locatives_movement_crossing
+Through the tunnel,locatives_movement_crossing
+To him,locatives_movement_destination
+To London,locatives_movement_destination
+Into the room,locatives_movement_destination
+Towards the light,locatives_movement_destination
+Onto the table,locatives_movement_destination
+From London,locatives_movement_origin
+From him to me,locatives_movement_origin
+Picture of a person,locatives_movement_source
+Made by Van Gogh,locatives_movement_source
+On/to the left/to the right/above/below/in front/behind/opposite the table,locatives_place_relative
+Next to you,locatives_place_relative
+In the water,locatives_place_relative
+In the kitchen,locatives_place_static
+In that building,locatives_place_static
+In Mexico,locatives_place_static
+In Tokyo,locatives_place_static
+In the car/taxi,locatives_place_static
+In the word,locatives_place_static
+At a party,locatives_place_static
+At school,locatives_place_static
+On the wall,locatives_place_static
+On the first floor,locatives_place_static
+On the bus,locatives_place_static
+For studying,locatives_purpose
+For her,locatives_purpose
+Over 150,locatives_quantity
+Under 3,locatives_quantity
+Around 7,locatives_quantity
+In an hour,locatives_sequence
+3 days/weeks ago,locatives_sequence
+Before 2005,locatives_sequence
+After 2005,locatives_sequence
+From Monday until Friday,locatives_sequence
+By Monday/4:30,locatives_sequence
+On Monday,locatives_time
+On the weekend,locatives_time
+In August,locatives_time
+In 1996,locatives_time
+In the Morning,locatives_time
+At night,locatives_time
+At 4:30,locatives_time
+About the woman,locatives_topic
+pres part,verb_derivational
+past part,verb_derivational
+fut part,verb_derivational
+conditional,verbs_mood
+negative,verbs_mood
+plural,nouns_number
+nom,nouns_case
+gen,nouns_case
+dat,nouns_case
+inst,nouns_case
+acc,nouns_case
+loc,nouns_case
+present,verbs_tense
+past,verbs_tense
+future,verbs_tense
+imperfect,verbs_aspect
+perfect,verbs_aspect
+causative,verbs_valence
+passive,verbs_valence
+1s,verbs_number
+1p,verbs_number
+2s,verbs_number
+2p,verbs_number
+3s,verbs_number
+3p,verbs_number
+continuous,verbs_aspect
+possessive,adjectives
+comparative,adjectives
+superlative,adjectives
+diminutive,adjectives
+augmentative,adjectives

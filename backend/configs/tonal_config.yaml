@@ -21,7 +21,7 @@ params:
     verb_copula: no
 
     # none | low | high
-    verb_tense: high
+    verb_tense: none
 
     # none | low | high
     verb_person: none
@@ -33,7 +33,7 @@ params:
     verb_gender: none
 
     # none | low | high
-    verb_aspect: high
+    verb_aspect: none
 
     # none | low | high
     verb_mood: high
@@ -45,13 +45,13 @@ params:
     verb_evidential: high
 
     # none | low | high
-    derivational: high
+    derivational: none
 
     # none | low | high
-    verb_valence: high
+    verb_valence: none
 
     min_syl_per_word: 1
-    max_syl_per_word: 4
+    max_syl_per_word: 2
     min_syl_per_morpheme: 1
     max_syl_per_morpheme: 1
 
@@ -62,25 +62,25 @@ params:
     onomatopoeia: none
 
     # none | low | med | high
-    phon_cons_difficulty: med
+    phon_cons_difficulty: low
 
     # none | low | med | high
-    phon_cons_number: med
+    phon_cons_number: low
 
     # none | low | med | high
     phon_vowel_difficulty: low
 
     # none | low | med | high
-    phon_vowel_number: med
+    phon_vowel_number: low
 
     # none | low | high
     phon_syl_cons: none
 
     # none | low | high
-    phon_tone: none
+    phon_tone: high
 
     # no | yes
-    phon_gemination: yes
+    phon_gemination: no
 
     # no | yes
     phon_vowel_length: yes
@@ -95,5 +95,5 @@ params:
     phon_diphthongs: none
 
     # none | low | high
-    phon_non_egressive: no
+    phon_non_egressive: yes
 

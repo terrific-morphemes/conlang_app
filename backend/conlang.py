@@ -4,7 +4,9 @@ import random
 import json
 from pathlib import Path
 
-CFG_FNAME = Path("./configs/tiefling_config.yaml")
+# CFG_FNAME = Path("./backend/configs/tiefling_config.yaml")
+# CFG_FNAME = Path("./backend/configs/spritish_config.yaml")
+CFG_FNAME = Path("./backend/configs/tonal_config.yaml")
 
 # TODO: save to json
 
@@ -165,9 +167,14 @@ class Conlang:
             ]
             self.medials.extend(syllabic_consonants)
         self.finals = consonants
+        if self.phon_tone >= 1:
+            self.tones.extend(['55', '11'])
+        if self.phon_tone >= 2:
+            self.tones.extend(['51', '15'])
+        if self.phon_tone >= 3:
+            self.tones.extend(['33', '13', '31', '314', '53', '35'])
 
         # TODO: consonant clusters
-        # TODO: tone
         # TODO: customize initials, medials, and finals
 
     def create_lemma(self, morpheme, min_syl, max_syl):
@@ -205,7 +212,11 @@ class Conlang:
                         final *= 2
                     if has_long_vowel:
                         medial *= 2
-                    syl = f"{initial}{medial}{final}"
+                    if self.tones:
+                        tone = random.choice(self.tones)
+                    else:
+                        tone = ""
+                    syl = f"{initial}{medial}{final}{tone}"
                     lemma += syl
             if lemma in self.all_lemmata:
                 matching_morphemes = [

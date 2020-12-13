@@ -1,5 +1,7 @@
 data:
-    lexicon_fname: ./backend/data/lexemes.csv
+    lexicon_fnames: 
+        - ./backend/data/lexemes.csv
+        - ./backend/data/vocab_lists/dnd.csv
     phoneme_fname: ./backend/data/phonemes.csv
     morpheme_fname: ./backend/data/morphemes.csv
     adposition_fname: ./backend/data/adpositions.csv
@@ -52,7 +54,7 @@ params:
 
     min_syl_per_word: 1
     max_syl_per_word: 4
-    min_syl_per_morpheme: 1
+    min_syl_per_morpheme: 0
     max_syl_per_morpheme: 1
 
     # none | low | high
@@ -65,13 +67,13 @@ params:
     phon_cons_difficulty: med
 
     # none | low | med | high
-    phon_cons_number: med
+    phon_cons_number: high
 
     # none | low | med | high
     phon_vowel_difficulty: low
 
     # none | low | med | high
-    phon_vowel_number: med
+    phon_vowel_number: high
 
     # none | low | high
     phon_syl_cons: none

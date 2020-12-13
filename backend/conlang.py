@@ -4,9 +4,9 @@ import random
 import json
 from pathlib import Path
 
-# CFG_FNAME = Path("./backend/configs/tiefling_config.yaml")
+CFG_FNAME = Path("./backend/configs/tiefling_config.yaml")
 # CFG_FNAME = Path("./backend/configs/spritish_config.yaml")
-CFG_FNAME = Path("./backend/configs/tonal_config.yaml")
+# CFG_FNAME = Path("./backend/configs/tonal_config.yaml")
 
 # TODO: save to json
 
@@ -25,18 +25,22 @@ def load_config(cfg_fname):
         return cfg
 
 
-def load_lexicon(lexicon_fname):
+def load_lexicon(lexicon_fnames):
+    seen_words = set()
     all_lexemes = list()
-    with lexicon_fname.open() as source:
-        reader = csv.DictReader(source)
-        rows = [row for row in reader]
-        for row in rows:
-            lexeme = {
-                'meaning':row['word'],
-                'lemma':'',
-                'category':row['category'],
-            }
-            all_lexemes.append(lexeme)
+    for lexicon_fname in lexicon_fnames:
+        with lexicon_fname.open() as source:
+            reader = csv.DictReader(source)
+            rows = [row for row in reader]
+            for row in rows:
+                if row['word'] not in seen_words:
+                    seen_words.add(row['word'])
+                    lexeme = {
+                        'meaning':row['word'],
+                        'lemma':'',
+                        'category':row['category'],
+                    }
+                    all_lexemes.append(lexeme)
     return all_lexemes
 
 
@@ -180,9 +184,10 @@ class Conlang:
     def create_lemma(self, morpheme, min_syl, max_syl):
         n_syls = random.randint(
             min_syl,
-            max_syl + 1
+            max_syl
         )
-        lemma = ""
+        lemma = list()
+        attempt_count = 0
         while not lemma:
             if n_syls == 0:
                 phonemes = self.initials + self.medials + self.finals
@@ -217,23 +222,40 @@ class Conlang:
                     else:
                         tone = ""
                     syl = f"{initial}{medial}{final}{tone}"
-                    lemma += syl
-            if lemma in self.all_lemmata:
+                    lemma.append(syl)
+            n_phonemes = len(
+                self.initials
+                + self.finals
+                + self.medials 
+                + self.tones
+            )
+            n_morphemes = len(self.morphemes)
+            n_lexemes = len(self.lexicon)
+            if (
+                '-'.join(lemma) in self.all_lemmata
+                and (
+                    n_phonemes > n_morphemes
+                    or n_phonemes > n_lexemes
+                )
+                and attempt_count < 100
+            ):
                 matching_morphemes = [
                     m for m in self.morphemes
-                    if m['lemma'] == lemma
+                    if m['lemma'] == '-'.join(lemma)
                 ]
                 matching_words = [
                     l for l in self.lexicon
-                    if l['lemma'] == lemma
+                    if l['lemma'] == '-'.join(lemma)
                 ]
                 matching = matching_morphemes + matching_words
-                lemma = ""
-        morpheme['lemma'] = lemma
-        self.all_lemmata.add(lemma)
+                lemma = list()
+                attempt_count += 1
+                # print(f"Attempt {attempt_count} for {morpheme}")
+        morpheme['lemma'] = '-'.join(lemma)
+        self.all_lemmata.add('-'.join(lemma))
         return morpheme
 
-    def add_morphemes(self, category, min_syl, max_syl):
+    def add_morphemes(self, category):
         morphemes = [
             m for m in self.all_morphemes 
             if category in m['category']
@@ -244,6 +266,12 @@ class Conlang:
                 self.min_syl_per_morpheme,
                 self.max_syl_per_morpheme
             )
+            """
+            print(
+                f"Adding morpheme {morpheme['lemma']}"
+                f"{self.min_syl_per_morpheme} {self.max_syl_per_morpheme}"
+            )
+            """
             self.morphemes.append(morpheme)
 
 
@@ -253,89 +281,75 @@ class Conlang:
         if self.verb_person > 0:
             self.add_morphemes(
                 'verb_person',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_number > 0:
             self.add_morphemes(
                 'verb_number',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_gender > 0:
             self.add_morphemes(
                 'verb_gender',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_tense > 0:
             self.add_morphemes(
                 'verb_tense',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_aspect > 0:
             self.add_morphemes(
                 'verb_aspect',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_mood > 0:
             self.add_morphemes(
                 'verb_mood',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_attitudinal > 0:
             self.add_morphemes(
                 'verb_attitudinal',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_evidential > 0:
             self.add_morphemes(
                 'verb_evidential',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.derivational > 0:
             self.add_morphemes(
                 'derivational',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.verb_valence > 0:
             self.add_morphemes(
                 'verb_valence',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.noun_class > 0:
             self.add_morphemes(
                 'noun_class',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
         if self.noun_case > 0:
             self.add_morphemes(
                 'noun_case',
-                self.min_syl_per_morpheme,
-                self.max_syl_per_morpheme,
             )
 
 
     def generate_sentence(self):
+        n_subject = dict()
+        n_object = dict()
+        verb = dict()
+        tense = dict()
+        aspect = dict()
+        mood = dict()
+        evidential = dict()
+        place = dict()
+        locative = dict()
+
         nouns = [
             l for l in self.lexicon
             if 'noun' in l['category']
@@ -350,7 +364,6 @@ class Conlang:
         places = [
             l for l in self.lexicon
             if 'place' in l['category']
-            or 'location' in l['category']
         ]
 
         tenses = [
@@ -373,23 +386,27 @@ class Conlang:
             if 'evidentiality' in m['category']
         ]
 
+        if self.adpositions == 'morpheme':
+            locatives = [
+                m for m in self.morphemes
+                if 'locative' in m['category']
+            ]
+        else:
+            locatives = [
+                l for l in self.lexicon
+                if 'locative' in l['category']
+            ]
 
         if places:
             place = random.choice(places)
-        if self.adpositions:
-            locative = random.choice(self.adpositions)
+        if locatives:
+            locative = random.choice(locatives)
 
         # TODO: identify nouns that can be agents and patients
         # TODO: PNG agreement
         n_subject = random.choice(nouns)
         n_object = random.choice(nouns)
         verb = random.choice(verbs)
-        tense = dict()
-        aspect = dict()
-        mood = dict()
-        evidential = dict()
-        place = dict()
-        locative = dict()
 
         if tenses:
             tense = random.choice(tenses)
@@ -433,10 +450,6 @@ class Conlang:
 
     def build_lexicon(self):
         for lexeme in self.all_lexemes:
-            n_syls = random.randint(
-                self.min_syl_per_word,
-                self.max_syl_per_word + 1
-            )
             lexeme = self.create_lemma(
                 lexeme,
                 self.min_syl_per_word,
@@ -449,7 +462,7 @@ class Conlang:
         cfg = load_config(cfg_fname)
         data_cfg = cfg['data']
         params_cfg = cfg['params']
-        lexicon_fname = Path(data_cfg['lexicon_fname'])
+        lexicon_fnames = [Path(f) for f in data_cfg['lexicon_fnames']]
         adposition_fname = Path(data_cfg['adposition_fname'])
         phoneme_fname = Path(data_cfg['phoneme_fname'])
         morpheme_fname = Path(data_cfg['morpheme_fname'])
@@ -458,7 +471,7 @@ class Conlang:
         self.all_phonemes = load_phonemes(phoneme_fname)
         self.all_morphemes = load_morphemes(morpheme_fname)
         self.all_adpositions = load_adpositions(adposition_fname)
-        self.all_lexemes = load_lexicon(lexicon_fname)
+        self.all_lexemes = load_lexicon(lexicon_fnames)
         self.all_sentences = load_sentences(sentence_fname)
 
         # for preventing homophones
@@ -520,14 +533,30 @@ class Conlang:
 
 if __name__ == "__main__":
     conlang = Conlang(CFG_FNAME)
+    """
     for lexeme in conlang.lexicon:
         meaning = lexeme['meaning']
         lemma = lexeme['lemma']
         print(f"{lemma}: {meaning}")
+    """
     for i in range(20):
         sent = conlang.generate_sentence()
+        for constituent in conlang.word_order:
+            if constituent == 's':
+                lemma = sent['subject']['lemma']
+                meaning = sent['subject']['meaning']
+                print(f"subject: {lemma} ({meaning})")
+            if constituent == 'v':
+                lemma = sent['verb']['lemma']
+                meaning = sent['verb']['meaning']
+                print(f"verb: {lemma} ({meaning})")
+            if constituent == 'o':
+                lemma = sent['object']['lemma']
+                meaning = sent['object']['meaning']
+                print(f"object: {lemma} ({meaning})")
         for role, component in sent.items():
-            lemma = component.get('lemma', '')
-            meaning = component.get('meaning', '')
-            print(f"{role}: {lemma} ({meaning})")
+            if role not in ['subject', 'verb', 'object']:
+                lemma = component.get('lemma', '')
+                meaning = component.get('meaning', '')
+                print(f"{role}: {lemma} ({meaning})")
         print()

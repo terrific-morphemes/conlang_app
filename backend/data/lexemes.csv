@@ -91,7 +91,7 @@ Get,verbs
 Give,verbs
 Go,verbs
 have,verbs
-Have to,verbs
+cat,nouns
 Hear,verbs
 Know,verbs
 Like,verbs
@@ -121,5 +121,6 @@ try,verbs
 expect,verbs
 choose,verbs
 solve,verbs
-normal,
-main,
+normal,descriptions
+main,descriptions
+dog,nouns

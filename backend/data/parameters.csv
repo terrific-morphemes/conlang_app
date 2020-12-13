@@ -1,0 +1,61 @@
+attribute,category,setting,possible_settings,changed
+word_order,,,sov | svo | vso | vos | osv | ovs,
+adpositions,,,pre | post | morpheme,
+noun_classes,,,none | low | high,
+verb_tense,,,none | low | high,
+verb_agr_person,,,none | subj | obj | both,*
+copula,,,no | yes,
+noun_case,,,none | low | high,
+verb_aspect,,,none | low | high,
+verb_modality,,,none | low | high,*
+min_syls_per_word,,,int,
+max_syls_per_word,,,int,
+min_syls_per_morpheme,,,int,
+max_syls_per_morpheme,,,int,
+morpheme_prefix,,,no | yes,*
+morpheme_suffix,,,no | yes,*
+morpheme_infix,,,no | yes,*
+morpheme_circumfix,,,no | yes,*
+morpheme_duplifix,,,no | yes,*
+morpheme_interfix,,,no | yes,*
+morpheme_transfix,,,no | yes,*
+morpheme_simulfix,,,no | yes,*
+morpheme_suprafix,,,no | yes,*
+morpheme_disfix,,,no | yes,*
+verb_attitudinal,,,none | low | high,
+phon_cons_difficulty,,,none | low | med | high,
+phon_cons_number,,,none | low | med | high,
+phon_vowels_difficulty,,,none | low | med | high,
+phon_vowels_number,,,none | low | med | high,
+phon_syl_cons,,,none | low | high,
+phon_tone,,,none | low | high,
+verb_agr_number,,,none | subj | obj | both,*
+verb_agr_class,,,none | subj | obj | both,*
+pronouns,,,no | yes,*
+onomatopoeia,,,none | low | high,
+phon_cons_length,,,no | yes,*
+phon_vowel_length,,,no | yes,
+phon_non_egressive,,,no | yes,
+phon_initial_clusters,,,none | low | high,
+phon_final_clusters,,,none | low | high,
+phon_diphthongs,,,none | low | high,
+verb_evidential,,,none | low | high,
+verb_passive,,,no | yes,*
+verb_causative,,,no | yes,*
+verb_middle,,,no | yes,*
+derivational,,,none | low | high,*
+noun_agr_person,,,none | low | high,*
+noun_agr_number,,,none | low | high,*
+adj_agr_person,,,no | yes,*
+adj_agr_number,,,no | yes,*
+adj_agr_class,,,no | yes,*
+noun_indef_article,,,no | yes,*
+noun_def_article,,,no | yes,*
+article_agr_number,,,no | yes,*
+article_agr_class,,,no | yes,*
+article_agr_case,,,no | yes,*
+adj_agr_case,,,no | yes,*
+pronoun_agr_person,,,no | yes,*
+pronoun_agr_number,,,no | yes,*
+pronoun_agr_class,,,no | yes,*
+pronoun_agr_case,,,no | yes,*

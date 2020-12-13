@@ -1,0 +1,561 @@
+﻿Consonant difficulty (phon_cons_difficulty)
+Choose how many of the consonants will be unfamiliar to a typical American English speaker who hasn’t studied other languages
+
+
+If you choose a low difficulty level, most of the consonants will be similar to the ones that appear in English. As the difficulty level goes up, you’ll stat to see more uvulars, palatals, retroflexes, etc.
+
+
+Note that this is super relative, and that objectively, no consonants are really easier or more difficult than others
+
+
+Initial consonant clusters (phon_initial_clusters)
+Choose how many initial consonant clusters the language has
+
+
+In English, some combinations of consonants can be at the beginning of a syllable, such as /fl/ in ‘fly’, and /st/ in ‘star’. But some combinations of consonants can’t be at the beginning of a syllable, such as /lf/: a word like ‘lfy’ is hard for many English speakers to say, because it’s not part of the rules of the language
+
+
+Final consonant clusters (phon_final_clusters)
+Choose how many final consonant clusters the language has
+
+
+In English, some combinations of consonants can be at the beginning of a syllable, such as /rp/ in ‘harp’, and /lf/ in ‘elf’. But some combinations of consonants can’t be at the beginning of a syllable, such as /fl/: a word like ‘efl’ is hard for many English speakers to say, because it’s not part of the rules of the language
+
+
+Diphthongs (phon_diphthongs)
+Choose how many diphthongs (vowel clusters) the language has
+
+
+In English, we have some vowel clusters called diphthongs, which take up a single syllable, and kind of run together, such as ‘oy’ in ‘joy’, where the ‘oy’ is a single syllable, not two syllables as in the ‘oh-ee’ in ‘Joey’.
+
+
+
+
+Non pulmonic-egressive consonants (phon_non_egressive)
+Choose whether to include non pulmonic-egressive consonants, such as clicks, implosives, and ejectives.
+
+
+All of the consonants we have in English are pulmonic egressive, which is just a fancy way of saying that air goes out of our lungs when we say them. But there are other sounds, such as clicks, implosives, and ejectives, which are not that.
+Consonant number (phon_cons_number)
+Choose how many consonants the language has
+
+
+Note that number is distinct from difficulty! You can have a small number of very difficult consonants, or a large number of easy consonants
+
+
+Vowel difficulty (phon_vowel_difficulty)
+Choose how many of the vowels will be unfamiliar to a typical American English speaker who hasn’t studied other languages
+
+
+If you choose a low difficulty level, most of the vowels will be similar to the ones that appear in English..
+
+
+Note that this is super relative, and that objectively, no vowels are really easier or more difficult than others
+Vowel number (phon_vowel_number)
+Choose how many vowels the language has
+
+
+Syllabic consonants (phon_syl_cons)
+Choose whether the language has syllabic consonants
+
+
+Basically, this is whether some consonants can act as vowels. These consonants tend to be fricatives, nasals, or approximants. For example, English ‘hmm’, or the way some people say ‘kitten’ as ‘kitt-n’
+
+
+But you can be a lot more adventurous!
+
+
+Tone (phon_tone)
+Choose how much tone the language has
+
+
+In some languages, changing the pitch of the word changes the meaning. Many people first think of Mandarin or other Chinese topolects. But lots of languages have tone, and not just in East and Southeast Asia. Yoruba and Xhosa also have tone. There are also analyses that argue that tone is significant for Norwegian, Panjabi.
+
+
+Of course, pitch matters in English, but that’s because of intonation, not tone. The difference is that intonation reflects the speaker’s mood or attitude, whereas tone actually has to do with the meaning of the word.
+
+
+Consonant length (phon_cons_length)
+Choose whether consonant length changes the meaning of the word.
+
+
+For example, Japanese:
+
+
+
+
+
+
+English has doubled letters in spelling, but not in sound.
+
+
+Vowel length (phon_vowel_length)
+Choose whether vowel length changes the meaning of the word.
+
+
+For example, Latin:
+
+
+Syllables per word (max_syls_per_word, min_syls_per_word)
+Choose the minimum and maximum syllables per word
+
+
+Let’s decide how long, in syllables, you want words to be. For example, the word ‘cat’ is one syllable, and the word ‘computer’ is three syllables (com-pu-ter).
+
+
+You can pick any integer (number) from one to infinity.
+
+
+Syllables per morpheme (max_syls_per_morpheme, min_syls_per_morpheme)
+Choose the minimum and maximum syllables per morpheme
+
+
+Let’s decide how long, in syllables, you want morphemes to be. Technically, words are also morphemes, but here we mean morphemes that are not words by themselves. So, like, past tense endings and such. 
+
+
+You can pick any number from zero to infinity. If you pick zero, that means that morphemes can consist of a single sound which isn’t normally allowed to be a syllable in the language. For example, the English ‘s isn’t allowed to be a syllable by itself, but it’s allowed to be a morpheme. In fact, most English morphemes are zero syllables.
+
+
+Keep in mind that if your words can be a lot of syllables, and morphemes can be a lot of syllables, and you can have many morphemes, then you can get some pretty long words! But if that’s what you want, then have fun with it.
+
+
+
+
+Pronouns (pronouns)
+Choose whether the language uses pronouns
+
+
+Some languages use pronouns all the time (such as English), some use them optionally in some situations (such as Spanish), and in other languages, pronouns are rarely or never used (such as Japanese or Korean)
+
+
+
+
+Pronoun agreement (pronoun_agr_person, pronoun_agr_number, pronoun_agr_class, pron_agr_case)
+Choose how pronouns agree with what they’re referring to. For example, English pronouns show the person and number of the referent, and sometimes the class and case.
+
+
+ 
+Morpheme location (morpheme_prefix, morpheme_suffix, morpheme_infix, morpheme_circumfix ...)
+Choose how morphemes should attach to words.
+
+
+Morphemes can attach to words in a lot of places. For example, in Spanish, verbs inflect for person and number with a suffix (a morpheme that comes after the word):
+
+
+yo hablo
+tu hablas
+
+
+-o and -as are suffixes.
+
+
+You’ve also got prefixes, like the prefix ‘un’ in ‘untie’
+
+
+There also circumfixes, which go around the word, like the negative in Egyptian Arabic:
+
+
+3andu ‘He has’
+ma-3andu-sh ‘He doesn’t have’
+ma- -sh is the circumfix
+
+
+You can also have infixes, which go inside a word. One example in English is freakin’ in abso-freakin’-lutely
+
+
+There are other kinds of affixes, and there are also situations where the whole word changes, like ‘see’ vs. ‘saw’. But to keep things simple, let’s ignore that for now.
+Word order (word_order)
+
+
+Choose a word order.
+
+
+Word order means how the subject (S), object (O), and verb (V) are arranged in the sentence. For example, English has subject-verb-object SVO word order:
+
+
+I love cats.
+
+
+subject: I 
+verb: love
+object: cats
+
+
+Many languages, such as Japanese, have SOV word order, so you’d say something more like:
+
+
+I cats love
+
+
+Other languages such as Irish and Arabic often use VSO word order, so you’d say something like:
+
+
+love I cats
+
+
+Klingon uses OVS word order, so in Klingon you’d say:
+
+
+cats love I
+
+
+If you want the language to have free word order, just choose any word order for now.
+
+
+There are other facets of word order too, but we’ll get into those later.
+Verb tense (verb_tense)
+Choose how many tenses the language has.
+
+
+Many languages change verbs, based on when the action or event takes place. We call that tense. For example, if you have the English sentence:
+
+
+I see a cat
+
+
+You can change the verb ‘see’ to ‘saw’ to describe that it happened in the past:
+
+
+I saw a cat
+
+
+When people talk about tense, they often think of past, present, and future. But there can be lots of other tenses, such as recent past, distant past, near future, distant future, and so on.
+
+
+We haven’t described how the tenses actually work. Sometimes you add extra words, like ‘will’ for English future tense. We’ll get to that later. For now, just choose how many tenses there are.
+
+
+Verb person agreement (verb_agr_person)
+Choose whether the verb agrees with the person of the subject, object, both, or neither
+
+
+We already talked about verb tense. In some languages, the verb also changes to agree with the person of the subject. For example, in Spanish ‘I speak’ is:
+
+
+Yo hablo
+
+
+Whereas ‘You speak’ is:
+
+
+Tu hablas
+
+
+‘Yo’ is first person, and ‘tu’ is second person. We often speak of three ‘persons’: first person, second person, and third person. First person is the speaker, second person is the person being spoken to, and third person is someone (or something) else. But some languages have more.
+
+
+Verb number agreement (verb_agr_number)
+Choose whether the verb agrees with the number of the subject, object, both, or neither
+
+
+We already talked about how the verb can agree with the person of the subject. In some languages, the verb also changes to agree with the number of the subject. For example, in Spanish ‘I speak’ is:
+
+
+Yo hablo
+
+
+Whereas ‘We speak’ is:
+
+
+Nosotros hablamos
+
+
+‘yo’ and ‘nosotros’ are both first person, the difference is that yo is singular and nosotros is plural.
+
+
+When we talk about ‘number’, we often think of singular and plural, but there can be others
+
+
+Verb class agreement (verb_agr_class)
+Choose whether the verb agrees with the noun class of the subject, object, both, or neither
+
+
+We already talked about how the verb can agree with the person of the subject, and we talked about noun classes. For example, in Hebrew, the verb tends to agree with the noun class and number of the subject.
+
+
+Ata medaber
+I (m. s.) speak
+
+
+At medaberet
+I (f. s.) speak
+
+
+Atem medabrim
+You (m. p.) speak
+
+
+Aten medabrot
+You (f. p.) speak
+
+
+Verb aspect (verb_aspect)
+Choose how much verb aspect the language has.
+
+
+We already talked about verb tense, which is about when an action or event happened in time. We can also describe verb aspect, which often has to do with other properties of the action or event – such as its frequency, duration, whether it finished, etc..
+
+
+For example, Russian distinguishes perfective and imperfective aspect. Imperfective is for actions which didn’t finish, and perfective is for actions which did finish.
+
+
+Ya chital knigu
+‘I read a book’ (but didn’t finish)
+
+
+Ya prochyol knigu
+‘I read a book’ (and finished it)
+
+
+English has aspect too, but it’s complicated, so I’m not including any examples here ^^;
+
+
+A language can use morphology to encode both tense and aspect, or tense but not aspect, or aspect but not tense.
+
+
+There are many ways a language can encode aspect. Sometimes, you change the word. For other languages, you add words, which is what English tends to do.
+
+
+Verb modality (verb_modality)
+Choose how much modality is encoded in the verb
+
+
+Modality tends to be related to what the speaker thinks/knows about the state of how the world is, or how it could be, or how it should be. For example
+
+
+The cat is on the table
+
+
+Is a statement of how the word is. If we add the modal ‘can’, we’re making a statement about a possible world.
+
+
+The cat can be on the table
+
+
+Another modal is ‘must’:
+ 
+The cat must be on the table
+
+
+That could mean something like ‘It is morally required that the cat be on the table” or “Based on my understanding of the world, I am certain that it is the case that the cat is currently on the table”
+
+
+There are lots of other modals! For example: imperative, conditional, subjunctive, hortative, and so on.
+
+
+There are many ways a language can encode modality. Sometimes, you change the word. For other languages, you add words, which is what English tends to do.
+
+
+
+
+Verb evidentiality (verb_evidentiality)
+Choose how much evidentiality is encoded in the verb.
+
+
+English doesn’t really change the verb for this, so we do it other ways, with phrases such as ‘apparently’ or ‘it is said that’, and such.
+
+
+In many languages, the verb changes based on the source of the information. For example, German can use sollen for reported speech:
+
+
+Japanese uses mitai and sou:
+
+
+
+
+
+
+Verb attitudinal (verb_attitudinal)
+Choose how much speaker attitude is encoded in the verb
+
+
+
+
+Modality tends to be related to what the speaker thinks/knows about the state of how the world is, or how it should be. Whereas attitudinals tend to be about how the speaker feels, emotionally, about the action or event.
+
+
+For example, Japanese uses -te shimau:
+
+
+Tamil uses _ for ‘malicious intent’: 
+
+
+The difference between attitude and modality is not always clear, and actually they are interchangeable sometimes.
+Copula (verb_copula)
+Choose whether the language has a copula verb
+
+
+‘Copula’ is basically a fancy way of saying “The verb ‘to be’”. English obviously has a verb ‘to be’, and we use it a lot.
+
+
+I am a linguist.
+I am tired.
+
+
+Many languages have a copula, but the rules for when to use it (and when not to use it) can be different. For example, in Japanese, we’d use a copula for ‘I am a linguist’, but not for ‘I am tired’. And many languages don’t have a copula at all, or have one but it’s optional.
+
+
+# TODO: rules for when to use the copula.
+Noun classes (noun_class)
+Choose how many noun classes the language has
+
+
+Some languages separate nouns into classes. Depending on the language, the noun class can affect things like the spelling of the noun: 
+
+
+or the spelling of adjectives used to describe the noun:
+
+
+or the spelling of the verb associated with the noun:
+
+
+Many languages call these noun classes ‘genders’. For example, Spanish has two noun classes, and German has three noun classes. 
+
+
+Sometimes, it kind of makes sense to call the noun classes genders, because in languages such as Spanish, which has two classes, words related to men tend to belong to the ‘masculine’ one class class, and words related to women tend to belong to another class. So people have take to calling the two classes ‘masculine’ and ‘feminine’. 
+
+
+But a lot of times, it doesn’t make so much sense. For example: languages with ‘masculine’ and ‘feminine’ noun classes usually have some words related to men that belong to the ‘feminine’ class, and vice-versa. 
+
+
+And in those same languages, all nouns must belong to one of the classes, even if the nouns themselves have no natural association with gender. So the gender of nouns can often be random.
+
+
+And besides all that, many languages have more than two noun classes – so however many genders there are, the relationship between noun class and gender isn’t really so clear.
+
+
+In this app, we’re going to call them ‘noun classes’ instead of genders, because for a lot of languages, ‘gender’ doesn’t really describe the noun classes.
+
+
+Noun cases (noun_case)
+Choose how much nouns inflect for case
+
+
+In some languages, nouns inflect (change) based on their role in the sentence. 
+
+
+In English, nouns change when they are the possessor of something
+
+
+Donna
+
+
+Donna’s telescope
+
+
+Russian nouns change when they are the direct object:
+
+
+kniga
+‘book’
+
+
+Ya chitayu knigu
+‘I am reading a book’
+
+
+
+
+the ‘s identifies that Donna is the possessor of the telescope
+
+
+Cases tend to have fancy names, which is unfortunate!
+
+
+nominative: subject
+accusative: direct object
+dative: indirect object
+genitive: possessor (like English ‘s)
+Adpositions (adpositions)
+Choose the placement of adpositions in the sentence.
+
+
+English uses prepositions, to show particular relationships between words – often, these relationships are related to space and time:
+
+
+I drink coffee at 9:00 a.m.
+I live on Jupiter
+
+
+Some languages, such as Hindi, use postpositions instead of prepositions, so instead you’d say things more like:
+
+
+9:00 a.m. at
+Jupiter on
+
+
+Adpositions means prepositions or postpositions.
+
+
+Other languages, such as Finnish, also use morphemes in addition to (or instead of) adpositions. In other words, these relationships aren’t always separate words, instead, you just add an ending to the word:
+
+
+9:00 a.m.-at
+Jupiter-on
+
+
+Articles (noun_def_article, noun_indef_article)
+Choose whether the language has definite articles (like English ‘the’) and indefinite articles (like English ‘a/an’)
+
+
+Article agreement (article_agr_number, article_agr_class, article_agr_case)
+Choose whether articles agree with what they’re modifying in number, class, and/or case
+
+
+Derivational morphology (derivational)
+Choose how much derivational morphology the language has
+
+
+Derivational morphology is a fancy way of saying ‘change the class of a word into a different part of speech’.
+
+
+For example, we can turn nouns into verbs in English with the derivational suffixes -ize and -ify:
+
+
+winter
+winterize
+
+
+simple
+simplify
+
+
+And we can change adjectives into nouns with -ness:
+happy
+happiness
+Verb passive (verb_passive)
+Choose whether the language has passive verbs: such as ‘the cat is loved’
+
+
+Japanese does this with the suffix -rare:
+
+
+Verb passive (verb_middle)
+Choose whether the language has ‘middle voice’ verbs
+
+
+Some languages have a middle voice, which inflects like an active verb but has a meaning like passive verbs, such as this greek sentence:
+
+
+English as this sometimes, in sentences like ‘this pen writes well’. The pen doesn’t actually do any writing itself!
+
+
+Verb causative (verb_causative)
+Choose whether the language has causative verbs
+
+
+Causative is a way of showing that someone made/let someone do something else, such as in these Hindi examples:
+
+
+Japanese also has this, with the suffix -sase:
+
+
+We don’t usually have this in English, except for the example ‘I’m going to learn you a lesson’ in some varieties of English.
+
+
+Inflectional morphology order
+TODO
+
+
+Onomatopoeia
+TODO

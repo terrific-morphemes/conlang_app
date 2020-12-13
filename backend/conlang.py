@@ -364,6 +364,7 @@ class Conlang:
         places = [
             l for l in self.lexicon
             if 'place' in l['category']
+            and 'locative' not in l['category']
         ]
 
         tenses = [

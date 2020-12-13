@@ -53,7 +53,7 @@ params:
     verb_valence: high
 
     min_syl_per_word: 1
-    max_syl_per_word: 4
+    max_syl_per_word: 2
     min_syl_per_morpheme: 0
     max_syl_per_morpheme: 1
 
@@ -64,22 +64,22 @@ params:
     onomatopoeia: none
 
     # none | low | med | high
-    phon_cons_difficulty: med
+    phon_cons_difficulty: high
 
     # none | low | med | high
     phon_cons_number: high
 
     # none | low | med | high
-    phon_vowel_difficulty: low
+    phon_vowel_difficulty: med
 
     # none | low | med | high
     phon_vowel_number: high
 
     # none | low | high
-    phon_syl_cons: none
+    phon_syl_cons: high
 
     # none | low | high
-    phon_tone: none
+    phon_tone: high
 
     # no | yes
     phon_gemination: yes

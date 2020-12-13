@@ -23,10 +23,20 @@ def vocab_from_txt(source_fnames, dest_fname):
             for t in word_types:
                 if t.lemma_.isalpha() and t.lemma_ not in seen_lemmata:
                     seen_lemmata.add(t.lemma_)
+                    pos = t.pos_.lower()
+                    dep = t.dep_.lower()
+                    role = ""
+                    if 'subj' in role:
+                        role = 'subject'
+                    elif 'dobj' in role:
+                        role = 'object'
+                    elif 'pobj' in role:
+                        role = 'place'
+                    category = f"{pos}_{role}"
                     lexeme = {
                         'word':t.lemma_,
                         'lemma':'',
-                        'category':t.pos_.lower(),
+                        'category':category,
                     }
                     new_vocab.append(lexeme)
     with dest_fname.open('w') as dest:

@@ -350,7 +350,14 @@ class Conlang:
         place = dict()
         locative = dict()
 
-        nouns = [
+
+        subjects = [
+            l for l in self.lexicon
+            if 'noun' in l['category']
+            and 'subject' in l['category']
+        ]
+
+        objects = [
             l for l in self.lexicon
             if 'noun' in l['category']
             or 'object' in l['category']
@@ -405,8 +412,8 @@ class Conlang:
 
         # TODO: identify nouns that can be agents and patients
         # TODO: PNG agreement
-        n_subject = random.choice(nouns)
-        n_object = random.choice(nouns)
+        n_subject = random.choice(subjects)
+        n_object = random.choice(objects)
         verb = random.choice(verbs)
 
         if tenses:

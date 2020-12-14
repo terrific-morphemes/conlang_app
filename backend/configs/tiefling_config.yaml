@@ -6,83 +6,146 @@ data:
     morpheme_fname: ./backend/data/morphemes.csv
     adposition_fname: ./backend/data/adpositions.csv
     sentences_fname: ./backend/data/sentences.csv
-params:
-    # sov | svo | vso | vos | osv | ovs
-    word_order: sov
+morphology:
+    # case | class | number | person
+    adj_agreement:
+        - 
 
     # pre | post | morpheme
     adpositions: post
 
-    # none | low | high
-    noun_class: none
+    # case | class | number | person
+    article_agreement: 
+        - 
 
     # none | low | high
-    noun_case: none
+    derivational: high
+
+    # circumfix | disfix | duplifix
+    # infix | interfix | prefix
+    # simulfix | suffix | suprafix | transfix
+    morpheme_types:
+        - prefix
+        - suffix
 
     # no | yes
-    verb_copula: no
+    noun_def_article: no
+
+    # no | yes
+    noun_indef_article: no
 
     # none | low | high
-    verb_tense: high
+    noun_number: low
 
     # none | low | high
-    verb_person: none
+    noun_person: low
 
     # none | low | high
-    verb_number: none
+    noun_case: yes
 
     # none | low | high
-    verb_gender: none
+    noun_class: yes
+
+    # none | low | high
+    noun_inflection_class: none
+
+    # person | number | case | class | noun
+    # derivation
+    noun_morpheme_order:
+        - noun
+        - person
+        - class
+        - number
+        - case
+
+    # case | class | number | person
+    pronoun_agreement:
+        - person
+        - number
+
+    # no | yes
+    pronouns: yes
+
+    # case | class | number | person
+    verb_agreement:
+        -
+
+    # none | subj | obj | both_sep | both_combined
+    verb_agree_with: both_sep
+
+    # evidential | modality | aspect | tense
+    # passive | middle | causative
+    # number | person | class | case
+    # verb | derivation
+    verb_morpheme_order:
+        - evidential
+        - modality
+        - aspect
+        - tense
+        - verb
+        - passive
+        - middle
+        - causative
+        - number
+        - person
 
     # none | low | high
     verb_aspect: high
 
     # none | low | high
-    verb_mood: high
-
-    # none | low | high
     verb_attitudinal: high
+
+    # no | yes
+    verb_copula: no
 
     # none | low | high
     verb_evidential: high
 
     # none | low | high
-    derivational: high
+    verb_inflection_class: none
 
     # none | low | high
-    verb_valence: high
+    verb_modality: high
 
+    # none | low | high
+    verb_tense: high
+
+    # passive | middle | causative
+    verb_valence:
+        - passive
+        - middle
+        - causative
+
+
+lexicon:
+    # none | low | high
+    onomatopoeia: none
+phonology:
     min_syl_per_word: 1
-    max_syl_per_word: 2
+    max_syl_per_word: 4
     min_syl_per_morpheme: 0
     max_syl_per_morpheme: 1
 
-    # none | low | high
-    pronouns: low
-
-    # none | low | high
-    onomatopoeia: none
+    # 1 | 2 | 3 | 4
+    phon_cons_difficulty: 2
 
     # none | low | med | high
-    phon_cons_difficulty: high
+    phon_cons_number: med
+
+    # 1 | 2 | 3 | 4
+    phon_vowel_difficulty: 2
 
     # none | low | med | high
-    phon_cons_number: high
-
-    # none | low | med | high
-    phon_vowel_difficulty: med
-
-    # none | low | med | high
-    phon_vowel_number: high
+    phon_vowel_number: med
 
     # none | low | high
-    phon_syl_cons: high
+    phon_syl_cons: none
 
     # none | low | high
-    phon_tone: high
+    phon_tone: none
 
     # no | yes
-    phon_gemination: yes
+    phon_cons_length: no
 
     # no | yes
     phon_vowel_length: yes
@@ -99,3 +162,6 @@ params:
     # none | low | high
     phon_non_egressive: no
 
+syntax:
+    # sov | svo | vso | vos | osv | ovs
+    word_order: sov

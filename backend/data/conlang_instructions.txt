@@ -553,9 +553,11 @@ Japanese also has this, with the suffix -sase:
 We don’t usually have this in English, except for the example ‘I’m going to learn you a lesson’ in some varieties of English.
 
 
-Inflectional morphology order
-TODO
+Inflectional morphology: morpheme order
 
 
+Root-and-pattern morphology
+Adverbs
+Stress
 Onomatopoeia
 TODO

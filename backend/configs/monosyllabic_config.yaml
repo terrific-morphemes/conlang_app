@@ -1,0 +1,151 @@
+data:
+    lexicon_fnames: 
+        - ./backend/data/lexemes.csv
+        - ./backend/data/vocab_lists/dnd.csv
+    phoneme_fname: ./backend/data/phonemes.csv
+    morpheme_fname: ./backend/data/morphemes.csv
+    adposition_fname: ./backend/data/adpositions.csv
+    sentences_fname: ./backend/data/sentences.csv
+morphology:
+    # case | class | number | person
+    adj_agreement:
+        - 
+
+    # pre | post | morpheme
+    adpositions: post
+
+    # case | class | number | person
+    article_agreement: 
+        - 
+
+    # none | low | high
+    derivational: none
+
+    # circumfix | disfix | duplifix
+    # infix | interfix | prefix
+    # simulfix | suffix | suprafix | transfix
+    morpheme_types:
+        - prefix
+        - suffix
+
+    # no | yes
+    noun_def_article: no
+
+    # no | yes
+    noun_indef_article: no
+
+    # none | low | high
+    noun_number: none
+
+    # none | low | high
+    noun_person: none
+
+    # none | low | high
+    noun_case: none
+
+    # none | low | high
+    noun_class: none
+
+    # none | low | high
+    noun_inflection_class: none
+
+    # person | number | case | class | noun
+    # derivation
+    noun_morpheme_order:
+        - 
+
+    # case | class | number | person
+    pronoun_agreement:
+        - 
+
+    # no | yes
+    pronouns: yes
+
+    # case | class | number | person
+    verb_agreement:
+        -
+
+    # none | subj | obj | both_sep | both_combined
+    verb_agree_with: none
+
+    # evidential | modality | aspect | tense
+    # passive | middle | causative
+    # number | person | class | case
+    # verb | derivation
+    verb_morpheme_order:
+        - 
+
+    # none | low | high
+    verb_aspect: none
+
+    # none | low | high
+    verb_attitudinal: none
+
+    # no | yes
+    verb_copula: no
+
+    # none | low | high
+    verb_evidential: none
+
+    # none | low | high
+    verb_inflection_class: none
+
+    # none | low | high
+    verb_modality: high
+
+    # none | low | high
+    verb_tense: none
+
+    # passive | middle | causative
+    verb_valence:
+        - 
+
+
+lexicon:
+    # none | low | high
+    onomatopoeia: none
+phonology:
+    min_syl_per_word: 1
+    max_syl_per_word: 1
+    min_syl_per_morpheme: 1
+    max_syl_per_morpheme: 1
+
+    # 1 | 2 | 3 | 4
+    phon_cons_difficulty: 2
+
+    # none | low | med | high
+    phon_cons_number: low
+
+    # 1 | 2 | 3 | 4
+    phon_vowel_difficulty: 1
+
+    # none | low | med | high
+    phon_vowel_number: low
+
+    # none | low | high
+    phon_syl_cons: none
+
+    # none | low | high
+    phon_tone: high
+
+    # no | yes
+    phon_cons_length: no
+
+    # no | yes
+    phon_vowel_length: yes
+
+    # none | low | high
+    phon_initial_clusters: none
+
+    # none | low | high
+    phon_final_clusters: none
+
+    # none | low | high
+    phon_diphthongs: none
+
+    # none | low | high
+    phon_non_egressive: no
+
+syntax:
+    # sov | svo | vso | vos | osv | ovs
+    word_order: sov

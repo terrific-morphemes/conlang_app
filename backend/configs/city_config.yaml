@@ -1,7 +1,7 @@
 data:
     lexicon_fnames: 
         - ./backend/data/lexemes.csv
-        - ./backend/data/vocab_lists/dnd.csv
+        # - ./backend/data/vocab_lists/dnd.csv
     phoneme_fname: ./backend/data/phonemes.csv
     morpheme_fname: ./backend/data/morphemes.csv
     adposition_fname: ./backend/data/adpositions.csv

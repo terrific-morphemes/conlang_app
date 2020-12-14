@@ -12,7 +12,7 @@ CFG_FNAME = Path("./backend/configs/city_config.yaml")
 # CFG_FNAME = Path("./backend/configs/monosyllabic_config.yaml")
 
 # DEST_FNAME = Path("./backend/data/tiefling_conlang.json")
-DEST_FNAME = Path("./backend/configs/city_conlang.json")
+DEST_FNAME = Path("./backend/data/city_conlang.json")
 # DEST_FNAME = Path("./backend/data/monosyllabic_conlang.json")
 # TODO: save to json
 
@@ -227,7 +227,7 @@ class Conlang:
         while not lemma:
             if n_syls == 0:
                 phonemes = self.initials + self.medials + self.finals
-                lemma = random.choice(phonemes)['ipa']
+                lemma = [random.choice(phonemes)['ipa']]
             else:
                 for syl_idx in range(n_syls):
                     has_initial = random.random() >= .5

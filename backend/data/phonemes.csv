@@ -1,111 +1,111 @@
 xsampa,ipa,description,initial,medial,final,level
-1,ɨ,close central unrounded vowel,,,,med
-2,ø,close-mid front rounded vowel,,,,med
-3,ɜ,open-mid central unrounded vowel,,,,high
-4,ɾ,alveolar flap,,,,low
-5,ɫ,velarized alveolar lateral approximant; also see _e,,,,high
-6,ɐ,near-open central vowel,,,,high
-7,ɤ,close-mid back unrounded vowel,,,,high
-8,ɵ,close-mid central rounded vowel,,,,high
-9,œ,open-mid front rounded vowel,,,,high
-!\,ǃ,postalveolar click,,,,high
-?,ʔ,glottal stop,,,,med
-?\,ʕ,voiced pharyngeal fricative,,,,high
-{,æ,near-open front unrounded vowel,,,,med
-},ʉ,close central rounded vowel,,,,high
-@,ə,schwa,,,,med
-@\,ɘ,close-mid central unrounded vowel,,,,high
-&,ɶ,open front rounded vowel,,,,high
-<\,ʢ,voiced epiglottal fricative,,,,high
->\,ʡ,epiglottal plosive,,,,high
-|\,ǀ,dental click,,,,high
-|\|\,ǁ,alveolar lateral click,,,,high
-3\,ɞ,open-mid central rounded vowel,,,,high
-a,a,open front unrounded vowel,,,,low
-A,ɑ,open back unrounded vowel,,,,high
-b,b,voiced bilabial plosive,,,,low
-B,β,voiced bilabial fricative,,,,med
-b_<,ɓ,voiced bilabial implosive,,,,high
-B\,ʙ,bilabial trill,,,,high
-c,c,voiceless palatal plosive,,,,high
-C,ç,voiceless palatal fricative,,,,med
-d,d,voiced alveolar plosive,,,,low
-D,ð,voiced dental fricative,,,,med
-d_<,ɗ,voiced alveolar implosive,,,,high
-d`,ɖ,voiced retroflex plosive,,,,med
-e,e,close-mid front unrounded vowel,,,,low
-E,ɛ,open-mid front unrounded vowel,,,,med
-f,f,voiceless labiodental fricative,,,,low
-F,ɱ,labiodental nasal,,,,high
-g,ɡ,voiced velar plosive,,,,low
-G,ɣ,voiced velar fricative,,,,med
-g_<,ɠ,voiced velar implosive,,,,high
-G\,ɢ,voiced uvular plosive,,,,high
-G\_<,ʛ,voiced uvular implosive,,,,high
-h,h,voiceless glottal fricative,,,,low
-H,ɥ,labial-palatal approximant,,,,high
-h\,ɦ,voiced glottal fricative,,,,high
-H\,ʜ,voiceless epiglottal fricative,,,,high
-i,i,close front unrounded vowel,,,,low
-I,ɪ,near-close near-front unrounded vowel,,,,med
-I\,ᵻ or ɪ̈,near-close central unrounded vowel,,,,med
-j,j,palatal approximant,,,,low
-J,ɲ,palatal nasal,,,,med
-j\,ʝ,voiced palatal fricative,,,,med
-J\,ɟ,voiced palatal plosive,,,,high
-J\_<,ʄ,voiced palatal implosive,,,,high
-k,k,voiceless velar plosive,,,,low
-K,ɬ,voiceless alveolar lateral fricative,,,,high
-K\,ɮ,voiced alveolar lateral fricative,,,,high
-l,l,alveolar lateral approximant,,,,low
-L,ʎ,palatal lateral approximant,,,,med
-l\,ɺ,alveolar lateral flap,,,,high
-L\,ʟ,velar lateral approximant,,,,high
-l`,ɭ,retroflex lateral approximant,,,,med
-m,m,bilabial nasal,,,,low
-M,ɯ,close back unrounded vowel,,,,high
-M\,ɰ,velar approximant,,,,high
-n,n,alveolar nasal,,,,low
-N,ŋ,velar nasal,,,,low
-N\,ɴ,uvular nasal,,,,high
-n`,ɳ,retroflex nasal,,,,med
-o,o,close-mid back rounded vowel,,,,low
-O,ɔ,open-mid back rounded vowel,,,,low
-O\,ʘ,bilabial click,,,,high
-p,p,voiceless bilabial plosive,,,,low
-P (or v\),ʋ,labiodental approximant,,,,high
-p\,ɸ,voiceless bilabial fricative,,,,high
-q,q,voiceless uvular plosive,,,,med
-Q,ɒ,open back rounded vowel,,,,high
-r,r,alveolar trill,,,,low
-R,ʁ,voiced uvular fricative,,,,med
-r\,ɹ,alveolar approximant,,,,med
-R\,ʀ,uvular trill,,,,high
-r\`,ɻ,retroflex approximant,,,,high
-r`,ɽ,retroflex flap,,,,high
-s,s,voiceless alveolar fricative,,,,low
-S,ʃ,voiceless postalveolar fricative,,,,low
-s\,ɕ,voiceless alveolo-palatal fricative,,,,med
-s`,ʂ,voiceless retroflex fricative,,,,med
-t,t,voiceless alveolar plosive,,,,low
-T,θ,voiceless dental fricative,,,,med
-t`,ʈ,voiceless retroflex plosive,,,,med
-u,u,close back rounded vowel,,,,low
-U,ʊ,near-close near-back rounded vowel,,,,med
-U\,ᵿ or ʊ̈,near-close central rounded vowel,,,,high
-v,v,voiced labiodental fricative,,,,low
-V,ʌ,open-mid back unrounded vowel,,,,high
-v\ (or P),ʋ,labiodental approximant,,,,high
-w,w,labial-velar approximant,,,,low
-W,ʍ,voiceless labial-velar fricative,,,,high
-x,x,voiceless velar fricative,,,,med
-X,χ,voiceless uvular fricative,,,,med
-x\,ɧ,voiceless palatal-velar fricative,,,,high
-X\,ħ,voiceless pharyngeal fricative,,,,high
-y,y,close front rounded vowel,,,,med
-Y,ʏ,near-close near-front rounded vowel,,,,high
-z,z,voiced alveolar fricative,,,,low
-Z,ʒ,voiced postalveolar fricative,,,,low
-z\,ʑ,voiced alveolo-palatal fricative,,,,med
-z`,ʐ,voiced retroflex fricative,,,,med
-*=\*,ǂ,palatal click,,,,high
+1,ɨ,close central unrounded vowel,,,,3
+2,ø,close-mid front rounded vowel,,,,2
+3,ɜ,open-mid central unrounded vowel,,,,4
+4,ɾ,alveolar flap,,,,1
+5,ɫ,velarized alveolar lateral approximant; also see _e,,,,4
+6,ɐ,near-open central vowel,,,,4
+7,ɤ,close-mid back unrounded vowel,,,,4
+8,ɵ,close-mid central rounded vowel,,,,4
+9,œ,open-mid front rounded vowel,,,,4
+!\,ǃ,postalveolar click,,,,4
+?,ʔ,glottal stop,,,,1
+?\,ʕ,voiced pharyngeal fricative,,,,3
+{,æ,near-open front unrounded vowel,,,,1
+},ʉ,close central rounded vowel,,,,3
+@,ə,schwa,,,,1
+@\,ɘ,close-mid central unrounded vowel,,,,4
+&,ɶ,open front rounded vowel,,,,4
+<\,ʢ,voiced epiglottal fricative,,,,4
+>\,ʡ,epiglottal plosive,,,,4
+|\,ǀ,dental click,,,,4
+|\|\,ǁ,alveolar lateral click,,,,4
+3\,ɞ,open-mid central rounded vowel,,,,4
+a,a,open front unrounded vowel,,,,1
+A,ɑ,open back unrounded vowel,,,,3
+b,b,voiced bilabial plosive,,,,1
+B,β,voiced bilabial fricative,,,,2
+b_<,ɓ,voiced bilabial implosive,,,,4
+B\,ʙ,bilabial trill,,,,4
+c,c,voiceless palatal plosive,,,,3
+C,ç,voiceless palatal fricative,,,,2
+d,d,voiced alveolar plosive,,,,1
+D,ð,voiced dental fricative,,,,2
+d_<,ɗ,voiced alveolar implosive,,,,4
+d`,ɖ,voiced retroflex plosive,,,,3
+e,e,close-mid front unrounded vowel,,,,1
+E,ɛ,open-mid front unrounded vowel,,,,1
+f,f,voiceless labiodental fricative,,,,1
+F,ɱ,labiodental nasal,,,,3
+g,ɡ,voiced velar plosive,,,,1
+G,ɣ,voiced velar fricative,,,,2
+g_<,ɠ,voiced velar implosive,,,,4
+G\,ɢ,voiced uvular plosive,,,,3
+G\_<,ʛ,voiced uvular implosive,,,,4
+h,h,voiceless glottal fricative,,,,1
+H,ɥ,labial-palatal approximant,,,,4
+h\,ɦ,voiced glottal fricative,,,,4
+H\,ʜ,voiceless epiglottal fricative,,,,3
+i,i,close front unrounded vowel,,,,1
+I,ɪ,near-close near-front unrounded vowel,,,,2
+I\,ᵻ,near-close central unrounded vowel,,,,3
+j,j,palatal approximant,,,,1
+J,ɲ,palatal nasal,,,,2
+j\,ʝ,voiced palatal fricative,,,,3
+J\,ɟ,voiced palatal plosive,,,,3
+J\_<,ʄ,voiced palatal implosive,,,,4
+k,k,voiceless velar plosive,,,,1
+K,ɬ,voiceless alveolar lateral fricative,,,,3
+K\,ɮ,voiced alveolar lateral fricative,,,,3
+l,l,alveolar lateral approximant,,,,1
+L,ʎ,palatal lateral approximant,,,,3
+l\,ɺ,alveolar lateral flap,,,,4
+L\,ʟ,velar lateral approximant,,,,4
+l`,ɭ,retroflex lateral approximant,,,,3
+m,m,bilabial nasal,,,,1
+M,ɯ,close back unrounded vowel,,,,3
+M\,ɰ,velar approximant,,,,4
+n,n,alveolar nasal,,,,1
+N,ŋ,velar nasal,,,,1
+N\,ɴ,uvular nasal,,,,3
+n`,ɳ,retroflex nasal,,,,3
+o,o,close-mid back rounded vowel,,,,1
+O,ɔ,open-mid back rounded vowel,,,,1
+O\,ʘ,bilabial click,,,,4
+p,p,voiceless bilabial plosive,,,,1
+P (or v\),ʋ,labiodental approximant,,,,3
+p\,ɸ,voiceless bilabial fricative,,,,3
+q,q,voiceless uvular plosive,,,,2
+Q,ɒ,open back rounded vowel,,,,4
+r,r,alveolar trill,,,,1
+R,ʁ,voiced uvular fricative,,,,2
+r\,ɹ,alveolar approximant,,,,2
+R\,ʀ,uvular trill,,,,2
+r\`,ɻ,retroflex approximant,,,,4
+r`,ɽ,retroflex flap,,,,3
+s,s,voiceless alveolar fricative,,,,1
+S,ʃ,voiceless postalveolar fricative,,,,1
+s\,ɕ,voiceless alveolo-palatal fricative,,,,2
+s`,ʂ,voiceless retroflex fricative,,,,2
+t,t,voiceless alveolar plosive,,,,1
+T,θ,voiceless dental fricative,,,,2
+t`,ʈ,voiceless retroflex plosive,,,,2
+u,u,close back rounded vowel,,,,1
+U,ʊ,near-close near-back rounded vowel,,,,2
+U\,ʊ̈,near-close central rounded vowel,,,,4
+v,v,voiced labiodental fricative,,,,1
+V,ʌ,open-mid back unrounded vowel,,,,3
+v\ (or P),ʋ,labiodental approximant,,,,2
+w,w,labial-velar approximant,,,,1
+W,ʍ,voiceless labial-velar fricative,,,,4
+x,x,voiceless velar fricative,,,,2
+X,χ,voiceless uvular fricative,,,,2
+x\,ɧ,voiceless palatal-velar fricative,,,,4
+X\,ħ,voiceless pharyngeal fricative,,,,3
+y,y,close front rounded vowel,,,,2
+Y,ʏ,near-close near-front rounded vowel,,,,2
+z,z,voiced alveolar fricative,,,,1
+Z,ʒ,voiced postalveolar fricative,,,,1
+z\,ʑ,voiced alveolo-palatal fricative,,,,2
+z`,ʐ,voiced retroflex fricative,,,,2
+*=\*,ǂ,palatal click,,,,4

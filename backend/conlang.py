@@ -4,6 +4,9 @@ import random
 import json
 from pathlib import Path
 
+import spacy
+nlp = spacy.load('en')
+
 CFG_FNAME = Path("./backend/configs/tiefling_config.yaml")
 # CFG_FNAME = Path("./backend/configs/spritish_config.yaml")
 # CFG_FNAME = Path("./backend/configs/tonal_config.yaml")
@@ -16,6 +19,10 @@ PARAM_CONVERSION = {
     'low':1,
     'med':2,
     'high':3,
+    '1':1,
+    '2':2,
+    '3':3,
+    '4':4,
     'yes':True,
     'no':False,
 }
@@ -412,7 +419,76 @@ class Conlang:
                 self.morphemes.append(lexeme)
          # TODO: inflection classes
 
-    def generate_sentence(self):
+    def generate_sentence(self, text=None):
+
+        if text:
+            doc = nlp(text)
+            sent_tokens = list()
+            for t in doc:
+                match = dict()
+                matches = [
+                    l for l in self.lexicon
+                    if l['meaning'] == t.text
+                ]
+                if matches:
+                    match = matches[0]
+                    sent_tokens.append(match)
+
+            subjects = [
+                t for t in sent_tokens
+                if 'subject' in t['category']
+
+            ]
+
+            descriptions = [
+                t for t in sent_tokens
+                if 'description' in t['category']
+
+            ]
+
+            objects = [
+                t for t in sent_tokens
+                if 'object' in t['category']
+
+            ]
+            verbs = [
+                t for t in sent_tokens
+                if 'verb' in t['category']
+
+            ]
+
+            if subjects:
+                n_subject = subjects[0]
+            else:
+                n_subject = dict()
+            if objects:
+                n_object = objects[0]
+            else:
+                n_object = dict()
+            if verbs:
+                verb = verbs[0]
+            else:
+                verb = dict()
+            if descriptions:
+                description = descriptions[0]
+            else:
+                description = dict()
+
+            sentence_components = {
+                'subject':n_subject,
+                'object':n_object,
+                'verb':verb,
+                'description':description,
+                # 'tense':tense,
+                # 'aspect':aspect,
+                # 'modality':modality,
+                #'place':place,
+                # 'locative':locative,
+                # 'evidential':evidential,
+            }
+            return sentence_components
+
+
         n_subject = dict()
         n_object = dict()
         verb = dict()
@@ -422,7 +498,8 @@ class Conlang:
         evidential = dict()
         place = dict()
         locative = dict()
-
+        subj_description = dict()
+        obj_description = dict()
 
         subjects = [
             l for l in self.lexicon
@@ -439,6 +516,12 @@ class Conlang:
         verbs = [
             l for l in self.lexicon
             if 'verb' in l['category']
+        ]
+
+        descriptions = [
+            t for t in self.lexicon
+            if 'description' in t['category']
+
         ]
 
         places = [
@@ -497,10 +580,15 @@ class Conlang:
             modality = random.choice(modalities)
         if evidentials:
             evidential = random.choice(evidentials)
+        if descriptions:
+            subj_description = random.choice(descriptions)
+            obj_description = random.choice(descriptions)
 
         sentence_components = {
             'subject':n_subject,
+            'subj_description':subj_description,
             'object':n_object,
+            'obj_description':obj_description,
             'verb':verb,
             'tense':tense,
             'aspect':aspect,
@@ -618,3 +706,23 @@ if __name__ == "__main__":
                 meaning = component.get('meaning', '')
                 print(f"{role}: {lemma} ({meaning})")
         print()
+    sent = conlang.generate_sentence("dark water")
+    for constituent in conlang.syntax_rules['word_order']:
+        if constituent == 's':
+            lemma = sent['subject'].get('lemma','')
+            meaning = sent['subject'].get('meaning', '')
+            print(f"subject: {lemma} ({meaning})")
+        if constituent == 'v':
+            lemma = sent['verb'].get('lemma','')
+            meaning = sent['verb'].get('meaning', '')
+            print(f"verb: {lemma} ({meaning})")
+        if constituent == 'o':
+            lemma = sent['object'].get('lemma','')
+            meaning = sent['object'].get('meaning','')
+            print(f"object: {lemma} ({meaning})")
+    for role, component in sent.items():
+        if role not in ['subject', 'verb', 'object']:
+            lemma = component.get('lemma', '')
+            meaning = component.get('meaning', '')
+            print(f"{role}: {lemma} ({meaning})")
+

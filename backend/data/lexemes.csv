@@ -146,6 +146,7 @@ building,places_home
 sofa,places_home
 kitchen,places_home
 water,nouns_subjects_objects
+dark,descriptions
 dark (of liquid),descriptions
 dark (general),descriptions
 dark (of sky),descriptions

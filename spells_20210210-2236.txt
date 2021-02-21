@@ -1,0 +1,71 @@
+Sentences for spell_conlang_20210210-2236
+
+1-3 syllable words
+1 syllable morphemes
+
+æ: vowel in 'cat'
+ɕ: consonant in Mandarin 'xiao3'
+ð: consonant in 'this', 'though', 'then'
+e: vowel in 'gay'
+ɛ: vowel in 'get'
+ə: schwa (uuuuhhhhh)
+j: as in German 'ja', English 'yes'
+ŋ: consonant 'ng' in 'sing', 'Ngo'
+ɲ: Italian gn, Spanish ñ
+ɔ: vowel in 'awwwwww'
+ɾ: flapped r (Spanish 'pero')
+r: trilled r (Spanish 'perro')
+ɹ: American English r
+ʁ: French r (back of the throat)
+ʃ: consonant in 'show', 'shine', 'she'
+ʋ: like English 'w', but lips don't quite touch (like 'hablar' in some Spanish accents)
+ʔ: glottal stop (English 'uh-oh', cockney English 'bottle')
+
+Eldritch blast: Fear my dark power
+zee ʋooʋ: ɡee-oʔ eez-əəɕ əə-ɛɛw zeɕ
+	eldritch: zee
+	blast: ʋooʋ
+	fear: ɡee
+	imperative: oʔ
+	me: eez
+	genitive case: əəɕ
+	dark: əə-ɛɛw
+	power: zeɕ
+
+
+Minor illusion: I'm going to lie (deceive) in magic now
+weew ɾeeb-zəə: eez eem ee-ɲɛz ɛm-əə e-ɡɛɛ əə
+	minor: weew
+	illusion: ɾeeb-zəə
+	me: eez
+	near future tense: eem
+	deceive: ee-ɲɛz
+	in/at/on: ɛm-əə
+	magic: e-ɡɛɛ
+	now: əə
+
+
+Hellish rebuke: oh no you did not
+huu-ɛɛh oo: uuɕ-ɛɛw hɛɛb ʃoo zɛɛ-əw-həʋ
+	hellish: huu-ɛɛh
+	rebuke: oo
+	oh_no: uuɕ-ɛɛw
+	you: hɛɛb
+	negation: ʃoo
+	to do (thusly): zɛɛ-əw
+	past tense: həʋ
+
+
+Unseen servant: let them marvel at my mysterious powers
+məə-ʔɛw ʋew: um-e-ʋəɡ-ɛ ɛm-əə eez-əəɕ ʋom zeɕ-ɾəʃ
+	unseen: məə-ʔɛw
+	servant: ʋew
+	marvel: um-e
+	they: ʋəɡ
+	hortative mood: ɛ
+	in/at/on: ɛm-əə
+	me: eez
+	genitive case: əəɕ
+	mysterious: ʋom
+	power: zeɕ
+	plural: ɾəʃ

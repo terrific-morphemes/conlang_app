@@ -1,0 +1,62 @@
+Sentences for spell_conlang_20210210-2232
+
+1-3 syllable words
+1 or 2 syllable morphemes
+
+æ: vowel in 'cat'
+e: vowel in 'gay'
+ɛ: vowel in 'get'
+ə: schwa (uuuuhhhhh)
+ɔ: vowel in 'awwwwww'
+ɾ: flapped r (Spanish 'pero')
+r: trilled r (Spanish 'perro')
+
+
+Eldritch blast: Fear my dark power
+ɛr-aah ɛɛ-æ-ɾaa: ɾɛɛv-reɾ-el-ɔɔɾ veel-ɾa-e hiiv ɾii
+	eldritch: ɛr-aah
+	blast: ɛɛ-æ-ɾaa
+	fear: ɾɛɛv-reɾ
+	imperative: el-ɔɔɾ
+	me: veel
+	genitive case: ɾa-e
+	dark: hiiv
+	power: ɾii
+
+
+Minor illusion: I'm going to lie (deceive) in magic now
+ɛ-uh ɛɛ-oo: veel ɾɛɛɾ-hææv ɛɛ-lɛv hi ɾuɾ-ɾeɾ æær
+	minor: ɛ-uh
+	illusion: ɛɛ-oo
+	me: veel
+	near future tense: ɾɛɛɾ-hææv
+	deceive: ɛɛ-lɛv
+	in/at/on: hi
+	magic: ɾuɾ-ɾeɾ
+	now: æær
+
+
+Hellish rebuke: oh no you did not
+rɔr ɾæ: aav-ææ-ee ɛɛɾ-hææ aa-ɛɛl a-ɔ-vuuɾ
+	hellish: rɔr
+	rebuke: ɾæ
+	oh_no: aav-ææ-ee
+	you: ɛɛɾ-hææ
+	negation: aa-ɛɛl
+	to do (thusly): a
+	past tense: ɔ-vuuɾ
+
+
+Unseen servant: let them marvel at my mysterious powers
+ɾee-eeɾ ɔɔ: ææh-huu-aar-hɛ-haa-vuu hi veel-ɾa-e haa-ir ɾii-iir-oor
+	unseen: ɾee-eeɾ
+	servant: ɔɔ
+	marvel: ææh-huu
+	they: aar-hɛ
+	hortative mood: haa-vuu
+	in/at/on: hi
+	me: veel
+	genitive case: ɾa-e
+	mysterious: haa-ir
+	power: ɾii
+	plural: iir-oor

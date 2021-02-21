@@ -1,4 +1,5 @@
 import yaml
+import datetime
 import csv
 import random
 import json
@@ -6,13 +7,15 @@ from pathlib import Path
 
 import spacy
 nlp = spacy.load('en')
+now = datetime.datetime.now().strftime('%Y%m%d-%H%M')
 
 # CFG_FNAME = Path("./backend/configs/tiefling_config.yaml")
-CFG_FNAME = Path("./backend/configs/city_config.yaml")
+# CFG_FNAME = Path("./backend/configs/city_config.yaml")
+CFG_FNAME = Path("./backend/configs/spell_config.yaml")
 # CFG_FNAME = Path("./backend/configs/monosyllabic_config.yaml")
 
 # DEST_FNAME = Path("./backend/data/tiefling_conlang.json")
-DEST_FNAME = Path("./backend/data/city_conlang.json")
+DEST_FNAME = Path(f"./backend/data/spell_conlang_{now}.json")
 # DEST_FNAME = Path("./backend/data/monosyllabic_conlang.json")
 # TODO: save to json
 
@@ -364,7 +367,7 @@ class Conlang:
                 lexeme = {
                     'category':'verb_agreement',
                     'lemma':'',
-                    'morpheme':f'verb_{verb_morpheme}'
+                    'meaning':f'verb_{verb_morpheme}'
                 }
                 lexeme = self.create_lemma(
                     lexeme,
@@ -411,7 +414,7 @@ class Conlang:
                 lexeme = {
                     'category':'pronouns',
                     'lemma':'',
-                    'morpheme':f'pronoun_{pronoun}'
+                    'meaning':f'pronoun_{pronoun}'
                 }
                 lexeme = self.create_lemma(
                     lexeme,
@@ -687,9 +690,8 @@ class Conlang:
         self.create_adpositions()
         self.build_lexicon()
 
-if __name__ == "__main__":
-    conlang = Conlang(CFG_FNAME)
-    conlang.save_conlang(DEST_FNAME)
+
+def sentence_demo():
     """
     for lexeme in conlang.lexicon:
         meaning = lexeme['meaning']
@@ -743,4 +745,130 @@ if __name__ == "__main__":
                 meaning = component.get('meaning', '')
                 print(f"{role}: {lemma} ({meaning})")
         print()
+
+
+def get_morpheme_by_meaning(conlang, meaning):
+    matches = [
+        m for m in conlang.morphemes
+        if m['meaning'].lower() == meaning.lower()
+    ]
+    if matches:
+        return matches[0]
+    else:
+        return dict()
+
+
+def get_lexeme_by_meaning(conlang, meaning):
+    matches = [
+        l for l in conlang.lexicon
+        if l['meaning'].lower() == meaning.lower()
+    ]
+    if matches:
+        return matches[0]
+    else:
+        return dict()
+
+
+if __name__ == "__main__":
+    conlang = Conlang(CFG_FNAME)
+    conlang.save_conlang(DEST_FNAME)
+    with Path(f"spells_{now}.txt").open('w') as dest:
+        dest.write(f'Sentences for {DEST_FNAME.stem}\n')
+        dest.write("\n")
+        dest.write("Eldritch blast: Fear my dark power\n")
+        eldritch = get_lexeme_by_meaning(conlang, 'eldritch').get('lemma', '')
+        blast = get_lexeme_by_meaning(conlang, 'blast').get('lemma', '')
+        fear = get_lexeme_by_meaning(conlang, 'fear').get('lemma', '')
+        imperative = get_morpheme_by_meaning(conlang, 'imperative').get('lemma', '')
+        me = get_morpheme_by_meaning(conlang, 'pronoun_1stsingular').get('lemma', '')
+        gen = get_morpheme_by_meaning(conlang, 'gen').get('lemma', '')
+        dark = get_lexeme_by_meaning(conlang, 'dark (malicious)').get('lemma', '')
+        power = get_lexeme_by_meaning(conlang, 'power').get('lemma', '')
+        dest.write(f"{eldritch} {blast}: {fear}-{imperative} {me}-{gen} {dark} {power}\n")
+        for word, lemma in [
+                ("eldritch", eldritch),
+                ("blast", blast),
+                ("fear", fear),
+                ("imperative", imperative),
+                ("me", me),
+                ("genitive case", gen),
+                ("dark", dark),
+                ("power", power),
+            ]:
+            dest.write(f"\t{word}: {lemma}\n")
+        dest.write("\n\n")
+
+
+        dest.write("Minor illusion: I'm going to lie (deceive) in magic now\n")
+        minor = get_lexeme_by_meaning(conlang, 'minor').get('lemma', '')
+        illusion = get_lexeme_by_meaning(conlang, 'illusion').get('lemma', '')
+        me = get_morpheme_by_meaning(conlang, 'pronoun_1stsingular').get('lemma', '')
+        near_fut = get_morpheme_by_meaning(conlang, 'near_future').get('lemma', '')
+        deceive = get_lexeme_by_meaning(conlang, 'deceive').get('lemma', '')
+        in_the = get_lexeme_by_meaning(conlang, 'in the kitchen').get('lemma', '')
+        magic = get_lexeme_by_meaning(conlang, 'magic').get('lemma', '')
+        now = get_lexeme_by_meaning(conlang, 'now').get('lemma', '')
+        dest.write(f"{minor} {illusion}: {me} {near_fut} {deceive} {in_the} {magic} {now}\n")
+        for word, lemma in [
+                ("minor", minor),
+                ("illusion", illusion),
+                ("me", me),
+                ("near future tense", near_fut),
+                ("deceive", deceive),
+                ("in/at/on", in_the),
+                ("magic", magic),
+                ("now", now),
+            ]:
+            dest.write(f"\t{word}: {lemma}\n")
+        dest.write("\n\n")
+
+        dest.write("Hellish rebuke: oh no you did not\n")
+        hellish = get_lexeme_by_meaning(conlang, 'hellish').get('lemma', '')
+        rebuke = get_lexeme_by_meaning(conlang, 'rebuke').get('lemma', '')
+        oh_no = get_lexeme_by_meaning(conlang, 'interjection of indignation').get('lemma', '')
+        you = get_morpheme_by_meaning(conlang, 'pronoun_2ndsingular').get('lemma', '')
+        neg = get_morpheme_by_meaning(conlang, 'negative').get('lemma', '')
+        do_thus = get_lexeme_by_meaning(conlang, 'to do thusly').get('lemma', '')
+        past = get_morpheme_by_meaning(conlang, 'past').get('lemma', '')
+        dest.write(f"{hellish} {rebuke}: {oh_no} {you} {neg} {do_thus}-{past}\n")
+        for word, lemma in [
+                ("hellish", hellish),
+                ("rebuke", rebuke),
+                ("oh_no", oh_no),
+                ("you", you),
+                ("negation", neg),
+                ("to do (thusly)", do_thus),
+                ("past tense", past),
+            ]:
+            dest.write(f"\t{word}: {lemma}\n")
+        dest.write("\n\n")
+
+        dest.write("Unseen servant: let them marvel at my mysterious powers\n")
+        unseen = get_lexeme_by_meaning(conlang, 'unseen').get('lemma', '')
+        servant = get_lexeme_by_meaning(conlang, 'servant').get('lemma', '')
+        marvel = get_lexeme_by_meaning(conlang, 'marvel').get('lemma', '')
+        them = get_morpheme_by_meaning(conlang, 'pronoun_3rdmany').get('lemma', '')
+        hort = get_morpheme_by_meaning(conlang, 'hortative').get('lemma', '')
+        in_the = get_lexeme_by_meaning(conlang, 'in the kitchen').get('lemma', '')
+        me = get_morpheme_by_meaning(conlang, 'pronoun_1stsingular').get('lemma', '')
+        gen = get_morpheme_by_meaning(conlang, 'gen').get('lemma', '')
+        mysterious = get_lexeme_by_meaning(conlang, 'mysterious').get('lemma', '')
+        power = get_lexeme_by_meaning(conlang, 'power').get('lemma', '')
+        pl = get_morpheme_by_meaning(conlang, 'plural').get('lemma', '')
+        dest.write(f"{unseen} {servant}: {marvel}-{them}-{hort} {in_the} {me}-{gen} {mysterious} {power}-{pl}\n")
+        for word, lemma in [
+                ("unseen", unseen),
+                ("servant", servant),
+                ("marvel", marvel),
+                ("they", them),
+                ("hortative mood", hort),
+                ("in/at/on", in_the),
+                ("me", me),
+                ("genitive case", gen),
+                ("mysterious", mysterious),
+                ("power", power),
+                ("plural", pl),
+            ]:
+            dest.write(f"\t{word}: {lemma}\n")
+
 

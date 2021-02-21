@@ -1,0 +1,60 @@
+Sentences for spell_conlang_20210210-2231
+
+1-3 syllable words
+1 or 2 syllable morphemes
+
+æ: vowel in 'cat'
+ɛ: vowel in 'get'
+ə: schwa (uuuuhhhhh)
+ɔ: vowel in 'awwwwww'
+ɾ: flapped r (Spanish 'pero')
+r: trilled r (Spanish 'perro')
+
+Eldritch blast: Fear my dark power
+ɔɔ-ɔɔf rɔɔf-ɔf: dur-buu-ii fæf-e ɔɔ-bɔɔf bɛɛ-ɔb
+	eldritch: ɔɔ-ɔɔf
+	blast: rɔɔf-ɔf
+	fear: dur-buu
+	imperative: ii
+	me: fæf
+	genitive case: e
+	dark: ɔɔ-bɔɔf
+	power: bɛɛ-ɔb
+
+
+Minor illusion: I'm going to lie (deceive) in magic now
+tɛɛ-aar ee: fæf u dɛɛd-ɛ tɛf reet-uut-ob oo
+	minor: tɛɛ-aar
+	illusion: ee
+	me: fæf
+	near future tense: u
+	deceive: dɛɛd-ɛ
+	in/at/on: tɛf
+	magic: reet-uut-ob
+	now: oo
+
+
+Hellish rebuke: oh no you did not
+ɔɔd aa-ɛf-beed: i-aaf-u od-foo o-fɔɔf baat-rii-fɛɛ
+	hellish: ɔɔd
+	rebuke: aa-ɛf-beed
+	oh_no: i-aaf-u
+	you: od-foo
+	negation: o-fɔɔf
+	to do (thusly): baat-rii
+	past tense: fɛɛ
+
+
+Unseen servant: let them marvel at my mysterious powers
+tii i-fod-raat: dir-ɛd-ææb-dab tɛf fæf-e to-a bɛɛ-ɔb-dɛɛt
+	unseen: tii
+	servant: i-fod-raat
+	marvel: dir
+	they: ɛd-ææb
+	hortative mood: dab
+	in/at/on: tɛf
+	me: fæf
+	genitive case: e
+	mysterious: to-a
+	power: bɛɛ-ɔb
+	plural: dɛɛt

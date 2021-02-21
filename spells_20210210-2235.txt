@@ -1,0 +1,67 @@
+Sentences for spell_conlang_20210210-2235
+
+1-3 syllable words
+1 syllable morphemes
+
+æ: vowel in 'cat'
+ð: consonant in 'this', 'though', 'then'
+e: vowel in 'gay'
+ɛ: vowel in 'get'
+ə: schwa (uuuuhhhhh)
+j: as in German 'ja', English 'yes'
+ŋ: consonant 'ng' in 'sing', 'Ngo'
+ɔ: vowel in 'awwwwww'
+ɾ: flapped r (Spanish 'pero')
+r: trilled r (Spanish 'perro')
+ɹ: American English r
+ʁ: French r (back of the throat)
+ʃ: consonant in 'show', 'shine', 'she'
+
+Eldritch blast: Fear my dark power
+aað ooŋ-ɛɛp: roor-ee-ɔ nær-ðoon uz-ɛɛ u-i
+	eldritch: aað
+	blast: ooŋ-ɛɛp
+	fear: roor-ee
+	imperative: ɔ
+	me: nær
+	genitive case: ðoon
+	dark: uz-ɛɛ
+	power: u-i
+
+
+Minor illusion: I'm going to lie (deceive) in magic now
+nuz nææŋ-ðaa: nær aʁ ɹæʃ ɛʃ ɔɔ piip-ee
+	minor: nuz
+	illusion: nææŋ-ðaa
+	me: nær
+	near future tense: aʁ
+	deceive: ɹæʃ
+	in/at/on: ɛʃ
+	magic: ɔɔ
+	now: piip-ee
+
+
+Hellish rebuke: oh no you did not
+ðuu-ɛ ææŋ: ʃii uu aɾ neep-ɹɛʃ-æŋ
+	hellish: ðuu-ɛ
+	rebuke: ææŋ
+	oh_no: ʃii
+	you: uu
+	negation: aɾ
+	to do (thusly): neep-ɹɛʃ
+	past tense: æŋ
+
+
+Unseen servant: let them marvel at my mysterious powers
+iir ðɛ-ii: i-ɛɛŋ-eʃ ɛʃ nær-ðoon eeð u-i-ooɾ
+	unseen: iir
+	servant: ðɛ-ii
+	marvel: i
+	they: ɛɛŋ
+	hortative mood: eʃ
+	in/at/on: ɛʃ
+	me: nær
+	genitive case: ðoon
+	mysterious: eeð
+	power: u-i
+	plural: ooɾ

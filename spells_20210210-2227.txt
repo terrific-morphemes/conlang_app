@@ -1,0 +1,57 @@
+Sentences for spell_conlang_20210210-2227
+
+1-3 syllable words
+1 or 2 syllable morphemes
+
+æ: vowel in in 'cat'
+ə: schwa (uuuuhhhhh)
+ɾ: flapped r (Spanish 'pero')
+r: trilled r (Spanish 'perro')
+
+Eldritch blast: Fear my dark power
+əh aav: ɾəm-doo-o-aa-o am-fə-vo-fæ væɾ-hoo-maa ah
+	eldritch: əh
+	blast: aav
+	fear: ɾəm-doo-o
+	imperative: aa-o
+	me: am-fə
+	genitive case: vo-fæ
+	dark: væɾ-hoo-maa
+	power: ah
+
+
+Minor illusion: I'm going to lie (deceive) in magic now
+hə-fæf-hə nəə-da: am-fə daa-aa fæ-æv ɾu aa əəm-vu-mææ
+	minor: hə-fæf-hə
+	illusion: nəə-da
+	me: am-fə
+	near future tense: daa-aa
+	deceive: fæ-æv
+	in/at/on: ɾu
+	magic: aa
+	now: əəm-vu-mææ
+
+
+Hellish rebuke: oh no you did not
+əəɾ-uud-dææm noo-uum-æ: uf-da-un fæ dəəɾ-nææ daa-aa-əə-mə
+	hellish: əəɾ-uud-dææm
+	rebuke: noo-uum-æ
+	oh_no: uf-da-un
+	you: fæ
+	negation: dəəɾ-nææ
+	to do (thusly): daa-aa-əə
+	past tense: mə
+
+Unseen servant: let them marvel at my mysterious powers
+ɾəf-hu aa: vu-dəə-vuu-an ɾu am-fə-vo-fæ  ah-mææd-uv
+	unseen: ɾəf-hu
+	servant: aa
+	marvel: vu
+	they: dəə
+	hortative mood: vuu-an
+	in/at/on: ɾu
+	me: am-fə
+	genitive case: vo-fæ
+	mysterious: to-a
+	power: ah
+	plural: mææd-uv

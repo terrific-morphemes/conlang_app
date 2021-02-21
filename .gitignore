@@ -1,6 +1,18 @@
+# Mac stuff
 .DS_Store
+
+# Python stuff
 *.idea
 *.pyc
 *.swp
 venv/
 
+# Rust stuff
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Node stuff
+node_modules/
+package-lock.json

@@ -1,0 +1,62 @@
+Sentences for spell_conlang_20210210-2234
+
+1 syllable words
+1 syllable morphemes
+
+æ: vowel in 'cat'
+e: vowel in 'gay'
+ɛ: vowel in 'get'
+ə: schwa (uuuuhhhhh)
+j: as in German 'ja', English 'yes'
+ɔ: vowel in 'awwwwww'
+ɾ: flapped r (Spanish 'pero')
+r: trilled r (Spanish 'perro')
+
+Eldritch blast: Fear my dark power
+wɛ nææ: ee-ææp oof-fo ɔp noo
+	eldritch: wɛ
+	blast: nææ
+	fear: ee
+	imperative: ææp
+	me: oof
+	genitive case: fo
+	dark: ɔp
+	power: noo
+
+
+Minor illusion: I'm going to lie (deceive) in magic now
+rɔɔ sɔɡ: oof iz on fəə əə eɡ
+	minor: rɔɔ
+	illusion: sɔɡ
+	me: oof
+	near future tense: iz
+	deceive: on
+	in/at/on: fəə
+	magic: əə
+	now: eɡ
+
+
+Hellish rebuke: oh no you did not
+ee næv: ɾən zi wef ree-ooʃ
+	hellish: ee
+	rebuke: næv
+	oh_no: ɾən
+	you: zi
+	negation: wef
+	to do (thusly): ree
+	past tense: ooʃ
+
+
+Unseen servant: let them marvel at my mysterious powers
+æj ɡær: oo-jæɡ-pos fəə oof-fo ɛɛ noo-ə
+	unseen: æj
+	servant: ɡær
+	marvel: oo
+	they: jæɡ
+	hortative mood: pos
+	in/at/on: fəə
+	me: oof
+	genitive case: fo
+	mysterious: ɛɛ
+	power: noo
+	plural: ə

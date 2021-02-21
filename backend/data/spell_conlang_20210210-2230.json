@@ -1,0 +1,4081 @@
+{
+ "all_phonemes": [
+  {
+   "xsampa": "1",
+   "ipa": "\u0268",
+   "description": "close central unrounded vowel",
+   "level": 3
+  },
+  {
+   "xsampa": "2",
+   "ipa": "\u00f8",
+   "description": "close-mid front rounded vowel",
+   "level": 2
+  },
+  {
+   "xsampa": "3",
+   "ipa": "\u025c",
+   "description": "open-mid central unrounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "4",
+   "ipa": "\u027e",
+   "description": "alveolar flap",
+   "level": 1
+  },
+  {
+   "xsampa": "5",
+   "ipa": "\u026b",
+   "description": "velarized alveolar lateral approximant; also see _e",
+   "level": 4
+  },
+  {
+   "xsampa": "6",
+   "ipa": "\u0250",
+   "description": "near-open central vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "7",
+   "ipa": "\u0264",
+   "description": "close-mid back unrounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "8",
+   "ipa": "\u0275",
+   "description": "close-mid central rounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "9",
+   "ipa": "\u0153",
+   "description": "open-mid front rounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "!\\",
+   "ipa": "\u01c3",
+   "description": "postalveolar click",
+   "level": 4
+  },
+  {
+   "xsampa": "?",
+   "ipa": "\u0294",
+   "description": "glottal stop",
+   "level": 1
+  },
+  {
+   "xsampa": "?\\",
+   "ipa": "\u0295",
+   "description": "voiced pharyngeal fricative",
+   "level": 3
+  },
+  {
+   "xsampa": "{",
+   "ipa": "\u00e6",
+   "description": "near-open front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "}",
+   "ipa": "\u0289",
+   "description": "close central rounded vowel",
+   "level": 3
+  },
+  {
+   "xsampa": "@",
+   "ipa": "\u0259",
+   "description": "mid central unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "@\\",
+   "ipa": "\u0258",
+   "description": "close-mid central unrounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "&",
+   "ipa": "\u0276",
+   "description": "open front rounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "<\\",
+   "ipa": "\u02a2",
+   "description": "voiced epiglottal fricative",
+   "level": 4
+  },
+  {
+   "xsampa": ">\\",
+   "ipa": "\u02a1",
+   "description": "epiglottal plosive",
+   "level": 4
+  },
+  {
+   "xsampa": "|\\",
+   "ipa": "\u01c0",
+   "description": "dental click",
+   "level": 4
+  },
+  {
+   "xsampa": "|\\|\\",
+   "ipa": "\u01c1",
+   "description": "alveolar lateral click",
+   "level": 4
+  },
+  {
+   "xsampa": "3\\",
+   "ipa": "\u025e",
+   "description": "open-mid central rounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "a",
+   "ipa": "a",
+   "description": "open front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "A",
+   "ipa": "\u0251",
+   "description": "open back unrounded vowel",
+   "level": 3
+  },
+  {
+   "xsampa": "b",
+   "ipa": "b",
+   "description": "voiced bilabial plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "B",
+   "ipa": "\u03b2",
+   "description": "voiced bilabial fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "b_<",
+   "ipa": "\u0253",
+   "description": "voiced bilabial implosive",
+   "level": 4
+  },
+  {
+   "xsampa": "B\\",
+   "ipa": "\u0299",
+   "description": "bilabial trill",
+   "level": 4
+  },
+  {
+   "xsampa": "c",
+   "ipa": "c",
+   "description": "voiceless palatal plosive",
+   "level": 3
+  },
+  {
+   "xsampa": "C",
+   "ipa": "\u00e7",
+   "description": "voiceless palatal fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "d",
+   "ipa": "d",
+   "description": "voiced alveolar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "D",
+   "ipa": "\u00f0",
+   "description": "voiced dental fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "d_<",
+   "ipa": "\u0257",
+   "description": "voiced alveolar implosive",
+   "level": 4
+  },
+  {
+   "xsampa": "d`",
+   "ipa": "\u0256",
+   "description": "voiced retroflex plosive",
+   "level": 3
+  },
+  {
+   "xsampa": "e",
+   "ipa": "e",
+   "description": "close-mid front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "E",
+   "ipa": "\u025b",
+   "description": "open-mid front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "f",
+   "ipa": "f",
+   "description": "voiceless labiodental fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "F",
+   "ipa": "\u0271",
+   "description": "labiodental nasal",
+   "level": 3
+  },
+  {
+   "xsampa": "g",
+   "ipa": "\u0261",
+   "description": "voiced velar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "G",
+   "ipa": "\u0263",
+   "description": "voiced velar fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "g_<",
+   "ipa": "\u0260",
+   "description": "voiced velar implosive",
+   "level": 4
+  },
+  {
+   "xsampa": "G\\",
+   "ipa": "\u0262",
+   "description": "voiced uvular plosive",
+   "level": 3
+  },
+  {
+   "xsampa": "G\\_<",
+   "ipa": "\u029b",
+   "description": "voiced uvular implosive",
+   "level": 4
+  },
+  {
+   "xsampa": "h",
+   "ipa": "h",
+   "description": "voiceless glottal fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "H",
+   "ipa": "\u0265",
+   "description": "labial-palatal approximant",
+   "level": 4
+  },
+  {
+   "xsampa": "h\\",
+   "ipa": "\u0266",
+   "description": "voiced glottal fricative",
+   "level": 4
+  },
+  {
+   "xsampa": "H\\",
+   "ipa": "\u029c",
+   "description": "voiceless epiglottal fricative",
+   "level": 3
+  },
+  {
+   "xsampa": "i",
+   "ipa": "i",
+   "description": "close front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "I",
+   "ipa": "\u026a",
+   "description": "near-close near-front unrounded vowel",
+   "level": 2
+  },
+  {
+   "xsampa": "I\\",
+   "ipa": "\u1d7b",
+   "description": "near-close central unrounded vowel",
+   "level": 3
+  },
+  {
+   "xsampa": "j",
+   "ipa": "j",
+   "description": "palatal approximant",
+   "level": 1
+  },
+  {
+   "xsampa": "J",
+   "ipa": "\u0272",
+   "description": "palatal nasal",
+   "level": 2
+  },
+  {
+   "xsampa": "j\\",
+   "ipa": "\u029d",
+   "description": "voiced palatal fricative",
+   "level": 3
+  },
+  {
+   "xsampa": "J\\",
+   "ipa": "\u025f",
+   "description": "voiced palatal plosive",
+   "level": 3
+  },
+  {
+   "xsampa": "J\\_<",
+   "ipa": "\u0284",
+   "description": "voiced palatal implosive",
+   "level": 4
+  },
+  {
+   "xsampa": "k",
+   "ipa": "k",
+   "description": "voiceless velar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "K",
+   "ipa": "\u026c",
+   "description": "voiceless alveolar lateral fricative",
+   "level": 3
+  },
+  {
+   "xsampa": "K\\",
+   "ipa": "\u026e",
+   "description": "voiced alveolar lateral fricative",
+   "level": 3
+  },
+  {
+   "xsampa": "l",
+   "ipa": "l",
+   "description": "alveolar lateral approximant",
+   "level": 1
+  },
+  {
+   "xsampa": "L",
+   "ipa": "\u028e",
+   "description": "palatal lateral approximant",
+   "level": 3
+  },
+  {
+   "xsampa": "l\\",
+   "ipa": "\u027a",
+   "description": "alveolar lateral flap",
+   "level": 4
+  },
+  {
+   "xsampa": "L\\",
+   "ipa": "\u029f",
+   "description": "velar lateral approximant",
+   "level": 4
+  },
+  {
+   "xsampa": "l`",
+   "ipa": "\u026d",
+   "description": "retroflex lateral approximant",
+   "level": 3
+  },
+  {
+   "xsampa": "m",
+   "ipa": "m",
+   "description": "bilabial nasal",
+   "level": 1
+  },
+  {
+   "xsampa": "M",
+   "ipa": "\u026f",
+   "description": "close back unrounded vowel",
+   "level": 3
+  },
+  {
+   "xsampa": "M\\",
+   "ipa": "\u0270",
+   "description": "velar approximant",
+   "level": 4
+  },
+  {
+   "xsampa": "n",
+   "ipa": "n",
+   "description": "alveolar nasal",
+   "level": 1
+  },
+  {
+   "xsampa": "N",
+   "ipa": "\u014b",
+   "description": "velar nasal",
+   "level": 1
+  },
+  {
+   "xsampa": "N\\",
+   "ipa": "\u0274",
+   "description": "uvular nasal",
+   "level": 3
+  },
+  {
+   "xsampa": "n`",
+   "ipa": "\u0273",
+   "description": "retroflex nasal",
+   "level": 3
+  },
+  {
+   "xsampa": "o",
+   "ipa": "o",
+   "description": "close-mid back rounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "O",
+   "ipa": "\u0254",
+   "description": "open-mid back rounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "O\\",
+   "ipa": "\u0298",
+   "description": "bilabial click",
+   "level": 4
+  },
+  {
+   "xsampa": "p",
+   "ipa": "p",
+   "description": "voiceless bilabial plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "P (or v\\)",
+   "ipa": "\u028b",
+   "description": "labiodental approximant",
+   "level": 3
+  },
+  {
+   "xsampa": "p\\",
+   "ipa": "\u0278",
+   "description": "voiceless bilabial fricative",
+   "level": 3
+  },
+  {
+   "xsampa": "q",
+   "ipa": "q",
+   "description": "voiceless uvular plosive",
+   "level": 2
+  },
+  {
+   "xsampa": "Q",
+   "ipa": "\u0252",
+   "description": "open back rounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "r",
+   "ipa": "r",
+   "description": "alveolar trill",
+   "level": 1
+  },
+  {
+   "xsampa": "R",
+   "ipa": "\u0281",
+   "description": "voiced uvular fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "r\\",
+   "ipa": "\u0279",
+   "description": "alveolar approximant",
+   "level": 2
+  },
+  {
+   "xsampa": "R\\",
+   "ipa": "\u0280",
+   "description": "uvular trill",
+   "level": 2
+  },
+  {
+   "xsampa": "r\\`",
+   "ipa": "\u027b",
+   "description": "retroflex approximant",
+   "level": 4
+  },
+  {
+   "xsampa": "r`",
+   "ipa": "\u027d",
+   "description": "retroflex flap",
+   "level": 3
+  },
+  {
+   "xsampa": "s",
+   "ipa": "s",
+   "description": "voiceless alveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "S",
+   "ipa": "\u0283",
+   "description": "voiceless postalveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "s\\",
+   "ipa": "\u0255",
+   "description": "voiceless alveolo-palatal fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "s`",
+   "ipa": "\u0282",
+   "description": "voiceless retroflex fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "t",
+   "ipa": "t",
+   "description": "voiceless alveolar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "T",
+   "ipa": "\u03b8",
+   "description": "voiceless dental fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "t`",
+   "ipa": "\u0288",
+   "description": "voiceless retroflex plosive",
+   "level": 2
+  },
+  {
+   "xsampa": "u",
+   "ipa": "u",
+   "description": "close back rounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "U",
+   "ipa": "\u028a",
+   "description": "near-close near-back rounded vowel",
+   "level": 2
+  },
+  {
+   "xsampa": "U\\",
+   "ipa": "\u028a\u0308",
+   "description": "near-close central rounded vowel",
+   "level": 4
+  },
+  {
+   "xsampa": "v",
+   "ipa": "v",
+   "description": "voiced labiodental fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "V",
+   "ipa": "\u028c",
+   "description": "open-mid back unrounded vowel",
+   "level": 3
+  },
+  {
+   "xsampa": "v\\ (or P)",
+   "ipa": "\u028b",
+   "description": "labiodental approximant",
+   "level": 2
+  },
+  {
+   "xsampa": "w",
+   "ipa": "w",
+   "description": "labial-velar approximant",
+   "level": 1
+  },
+  {
+   "xsampa": "W",
+   "ipa": "\u028d",
+   "description": "voiceless labial-velar fricative",
+   "level": 4
+  },
+  {
+   "xsampa": "x",
+   "ipa": "x",
+   "description": "voiceless velar fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "X",
+   "ipa": "\u03c7",
+   "description": "voiceless uvular fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "x\\",
+   "ipa": "\u0267",
+   "description": "voiceless palatal-velar fricative",
+   "level": 4
+  },
+  {
+   "xsampa": "X\\",
+   "ipa": "\u0127",
+   "description": "voiceless pharyngeal fricative",
+   "level": 3
+  },
+  {
+   "xsampa": "y",
+   "ipa": "y",
+   "description": "close front rounded vowel",
+   "level": 2
+  },
+  {
+   "xsampa": "Y",
+   "ipa": "\u028f",
+   "description": "near-close near-front rounded vowel",
+   "level": 2
+  },
+  {
+   "xsampa": "z",
+   "ipa": "z",
+   "description": "voiced alveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "Z",
+   "ipa": "\u0292",
+   "description": "voiced postalveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "z\\",
+   "ipa": "\u0291",
+   "description": "voiced alveolo-palatal fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "z`",
+   "ipa": "\u0290",
+   "description": "voiced retroflex fricative",
+   "level": 2
+  },
+  {
+   "xsampa": "*=\\*",
+   "ipa": "\u01c2",
+   "description": "palatal click",
+   "level": 4
+  }
+ ],
+ "all_morphemes": [
+  {
+   "meaning": "augmentative",
+   "lemma": "",
+   "category": "adjective"
+  },
+  {
+   "meaning": "comparative",
+   "lemma": "",
+   "category": "adjective"
+  },
+  {
+   "meaning": "diminutive",
+   "lemma": "",
+   "category": "adjective"
+  },
+  {
+   "meaning": "superlative",
+   "lemma": "",
+   "category": "adjective"
+  },
+  {
+   "meaning": "adj_to_adverb",
+   "lemma": "\u00e6\u00e6\u0261-n\u00e6\u0292",
+   "category": "derivational"
+  },
+  {
+   "meaning": "adj_to_noun",
+   "lemma": "\u0254n-\u025b",
+   "category": "derivational"
+  },
+  {
+   "meaning": "adj_to_verb",
+   "lemma": "z\u0259\u0259\u0292-diw",
+   "category": "derivational"
+  },
+  {
+   "meaning": "noun_to_adj",
+   "lemma": "\u0261\u0259\u0259-\u025bd",
+   "category": "derivational"
+  },
+  {
+   "meaning": "noun_to_adverb",
+   "lemma": "vu-\u0254\u0254h",
+   "category": "derivational"
+  },
+  {
+   "meaning": "noun_to_verb",
+   "lemma": "\u0292\u00e6\u00e6-e",
+   "category": "derivational"
+  },
+  {
+   "meaning": "relative_clause",
+   "lemma": "zeev-\u0292eew",
+   "category": "derivational"
+  },
+  {
+   "meaning": "verb_to_adj",
+   "lemma": "\u00e6-u",
+   "category": "derivational"
+  },
+  {
+   "meaning": "verb_to_adverb",
+   "lemma": "sed-u",
+   "category": "derivational"
+  },
+  {
+   "meaning": "verb_to_noun",
+   "lemma": "d\u025bh",
+   "category": "derivational"
+  },
+  {
+   "meaning": "acc",
+   "lemma": "\u0261\u0254",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "dat",
+   "lemma": "\u025b\u025b\u0292",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "gen",
+   "lemma": "ee-u",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "inst",
+   "lemma": "\u014be\u0292-i\u0292",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "loc",
+   "lemma": "\u00e6\u014b",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "nom",
+   "lemma": "\u0254",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "singular",
+   "lemma": "uud",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "dual",
+   "lemma": "w\u025b\u025bs",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "many",
+   "lemma": "\u0292uuh-\u0292\u0254\u0254",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "paucal",
+   "lemma": "ii-w\u0259v",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "plural",
+   "lemma": "\u0259\u0259",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "1st",
+   "lemma": "sid-\u00e6z",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "2nd",
+   "lemma": "\u0261\u025bn",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "3rd",
+   "lemma": "w\u00e6\u00e6z-\u025b",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "4th",
+   "lemma": "uu",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "continuous",
+   "lemma": "\u025bn-\u00e6\u00e6",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "experience",
+   "lemma": "uz",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "imperfect",
+   "lemma": "s\u00e6",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "perfect",
+   "lemma": "v\u0254\u0254z",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "accidental",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "addressee_benefit",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "bad_thing",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "completely",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "disposal",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "expected_thing",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "good_thing",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "malicious_intent",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "other_benefit",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "self_benefit",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "socially_downward",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "socially_upward",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "unexpected_thing",
+   "lemma": "",
+   "category": "verb_attitudinal"
+  },
+  {
+   "meaning": "assumption",
+   "lemma": "",
+   "category": "verb_evidentiality"
+  },
+  {
+   "meaning": "experiential_evidence",
+   "lemma": "",
+   "category": "verb_evidentiality"
+  },
+  {
+   "meaning": "hearsay",
+   "lemma": "",
+   "category": "verb_evidentiality"
+  },
+  {
+   "meaning": "inference",
+   "lemma": "",
+   "category": "verb_evidentiality"
+  },
+  {
+   "meaning": "sensory_observation",
+   "lemma": "",
+   "category": "verb_evidentiality"
+  },
+  {
+   "meaning": "witness",
+   "lemma": "",
+   "category": "verb_evidentiality"
+  },
+  {
+   "meaning": "ability",
+   "lemma": "\u025b\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "conditional",
+   "lemma": "\u00e6n",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "deontic_necessity",
+   "lemma": "i",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "epistemic_necessity",
+   "lemma": "\u0261ih",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "epistemic_possibility",
+   "lemma": "\u014bii-\u0259\u0292",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "hortative",
+   "lemma": "d\u00e6-diih",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "imperative",
+   "lemma": "wii",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_desiderative",
+   "lemma": "s\u00e6\u00e6z",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_dubitative",
+   "lemma": "h\u025bz-u",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_hypothetical",
+   "lemma": "\u0254v",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_likely",
+   "lemma": "s\u025b\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_presumptive",
+   "lemma": "ee-\u014ben",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_unlikely",
+   "lemma": "dun",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "know_how_to",
+   "lemma": "v\u025b\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "negative",
+   "lemma": "nu",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "optative",
+   "lemma": "i\u0261-ii",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "permission",
+   "lemma": "\u00e6",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "somehwat_certain",
+   "lemma": "s\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "somewhat_uncertain",
+   "lemma": "s\u0254\u0254-s\u0259",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "very_certain",
+   "lemma": "wu",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "very_uncertain",
+   "lemma": "u",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "distant_future",
+   "lemma": "\u0292\u00e6\u00e6-\u00e6\u00e6",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "distant_past",
+   "lemma": "\u0261\u0254\u0254\u0261",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "future",
+   "lemma": "i-hun",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "near_future",
+   "lemma": "\u0254\u0254",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "past",
+   "lemma": "\u0261ee",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "present",
+   "lemma": "\u0292\u0259",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "recent_past",
+   "lemma": "u\u0261-\u0259",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "causative",
+   "lemma": "",
+   "category": "verb_valence"
+  },
+  {
+   "meaning": "middle",
+   "lemma": "",
+   "category": "verb_valence"
+  },
+  {
+   "meaning": "passive",
+   "lemma": "",
+   "category": "verb_valence"
+  },
+  {
+   "meaning": "def_article",
+   "lemma": "",
+   "category": "noun_def_article"
+  },
+  {
+   "meaning": "indef_article",
+   "lemma": "",
+   "category": "noun_indef_article"
+  }
+ ],
+ "all_adpositions": [
+  {
+   "meaning": "With him",
+   "lemma": "v\u0259\u0259n",
+   "category": "locatives_accompaniment"
+  },
+  {
+   "meaning": "With sugar",
+   "lemma": "\u0261\u0254d-\u00e6\u00e6",
+   "category": "locatives_accompaniment"
+  },
+  {
+   "meaning": "Since 1988",
+   "lemma": "ni",
+   "category": "locatives_duration"
+  },
+  {
+   "meaning": "For 2 days/weeks/months/years",
+   "lemma": "\u025b\u025bv",
+   "category": "locatives_duration"
+  },
+  {
+   "meaning": "For 2 hours",
+   "lemma": "us-\u00e6h",
+   "category": "locatives_duration"
+  },
+  {
+   "meaning": "As a teacher",
+   "lemma": "n\u00e6\u00e6",
+   "category": "locatives_identity"
+  },
+  {
+   "meaning": "With a pen",
+   "lemma": "s\u0254",
+   "category": "locatives_instrument"
+  },
+  {
+   "meaning": "By myself",
+   "lemma": "vu-\u014b\u0259-uus",
+   "category": "locatives_instrument"
+  },
+  {
+   "meaning": "By bus",
+   "lemma": "s\u0254\u0261",
+   "category": "locatives_instrument"
+  },
+  {
+   "meaning": "In this book",
+   "lemma": "dee\u0292-\u014b\u00e6-n\u0259v",
+   "category": "locatives_media"
+  },
+  {
+   "meaning": "In that movie/song/picture",
+   "lemma": "ii-i",
+   "category": "locatives_media"
+  },
+  {
+   "meaning": "On TV",
+   "lemma": "\u0261ew-ziz-hu",
+   "category": "locatives_media"
+  },
+  {
+   "meaning": "Over the bridge",
+   "lemma": "\u0254-z\u00e6-iiw",
+   "category": "locatives_movement_crossing"
+  },
+  {
+   "meaning": "Across the street",
+   "lemma": "w\u0254\u0254\u0261",
+   "category": "locatives_movement_crossing"
+  },
+  {
+   "meaning": "Through the tunnel",
+   "lemma": "\u0292\u00e6v",
+   "category": "locatives_movement_crossing"
+  },
+  {
+   "meaning": "To him",
+   "lemma": "sii-\u0259\u0259\u0292",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "To London",
+   "lemma": "h\u00e6\u00e6\u0292-\u0259",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "Into the room",
+   "lemma": "\u014bu\u0292",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "Towards the light",
+   "lemma": "\u0259-\u00e6\u00e6",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "Onto the table",
+   "lemma": "\u0292\u00e6-z\u00e6-vuu",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "From London",
+   "lemma": "\u014bi\u0261-he\u0261-\u0259z",
+   "category": "locatives_movement_origin"
+  },
+  {
+   "meaning": "From him to me",
+   "lemma": "\u00e6-\u025b",
+   "category": "locatives_movement_origin"
+  },
+  {
+   "meaning": "Picture of a person",
+   "lemma": "zii",
+   "category": "locatives_movement_source"
+  },
+  {
+   "meaning": "Made by Van Gogh",
+   "lemma": "\u0259w-iiw",
+   "category": "locatives_movement_source"
+  },
+  {
+   "meaning": "On/to the left/to the right/above/below/in front/behind/opposite the table",
+   "lemma": "vee-h\u0254\u0254",
+   "category": "locatives_place_relative"
+  },
+  {
+   "meaning": "Next to you",
+   "lemma": "ze-u",
+   "category": "locatives_place_relative"
+  },
+  {
+   "meaning": "In the water",
+   "lemma": "\u025b\u0261-sii-us",
+   "category": "locatives_place_relative"
+  },
+  {
+   "meaning": "In the kitchen",
+   "lemma": "v\u025b\u025b",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In that building",
+   "lemma": "z\u0254\u0292",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In Mexico",
+   "lemma": "en",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In Tokyo",
+   "lemma": "\u0254\u0254d-\u00e6-d\u00e6h",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In the car/taxi",
+   "lemma": "\u0292\u0254\u0254",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In the word",
+   "lemma": "h\u025b\u0292-\u0292ii",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "At a party",
+   "lemma": "in-iih-h\u0254\u0254z",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "At school",
+   "lemma": "w\u00e6\u00e6s-h\u0259-\u014buw",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "On the wall",
+   "lemma": "\u025b\u025bv",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "On the first floor",
+   "lemma": "\u0292ew-\u00e6-uuz",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "On the bus",
+   "lemma": "ee",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "For studying",
+   "lemma": "huu-wuu-\u025bn",
+   "category": "locatives_purpose"
+  },
+  {
+   "meaning": "For her",
+   "lemma": "u-wii-niv",
+   "category": "locatives_purpose"
+  },
+  {
+   "meaning": "Over 150",
+   "lemma": "uuw-\u0259-\u0261u",
+   "category": "locatives_quantity"
+  },
+  {
+   "meaning": "Under 3",
+   "lemma": "uu",
+   "category": "locatives_quantity"
+  },
+  {
+   "meaning": "Around 7",
+   "lemma": "\u00e6\u014b",
+   "category": "locatives_quantity"
+  },
+  {
+   "meaning": "In an hour",
+   "lemma": "\u0261\u00e6w-eh",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "3 days/weeks ago",
+   "lemma": "\u0259\u0259-\u00e6\u0261",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "Before 2005",
+   "lemma": "v\u025b\u0292-\u0261\u0254\u0261-w\u025b\u025bv",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "After 2005",
+   "lemma": "\u0259-s\u0254\u0292-\u0259\u0259\u014b",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "From Monday until Friday",
+   "lemma": "i",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "By Monday/4:30",
+   "lemma": "\u00e6\u00e6\u0261-\u014b\u025b-du\u0292",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "On Monday",
+   "lemma": "zis-w\u00e6",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "On the weekend",
+   "lemma": "\u025b\u014b-sis",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "In August",
+   "lemma": "\u025b\u025b-zu-wuu\u014b",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "In 1996",
+   "lemma": "uuh-\u0259",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "In the Morning",
+   "lemma": "\u025b\u025b\u0261-\u0259",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "At night",
+   "lemma": "uu",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "At 4:30",
+   "lemma": "\u0259v",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "About the woman",
+   "lemma": "zee-w\u00e6w",
+   "category": "locatives_topic"
+  }
+ ],
+ "all_lexemes": [
+  {
+   "meaning": "here",
+   "lemma": "\u0254-\u0259n",
+   "category": "adverbs_places"
+  },
+  {
+   "meaning": "there",
+   "lemma": "\u0261u",
+   "category": "adverbs_places"
+  },
+  {
+   "meaning": "especially",
+   "lemma": "\u025bz",
+   "category": "degree"
+  },
+  {
+   "meaning": "this",
+   "lemma": "\u0259\u0259-u",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "that",
+   "lemma": "n\u00e6\u00e6-\u0259\u0259v",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "other",
+   "lemma": "\u0292ii\u014b-sii",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "important",
+   "lemma": "\u00e6\u00e6-\u0292u-di",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "interesting",
+   "lemma": "v\u00e6-n\u0259\u0259v",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "good",
+   "lemma": "v\u00e6d-s\u00e6-z\u00e6h",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "bad",
+   "lemma": "ii\u014b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "big",
+   "lemma": "\u0292u-i-ii",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "small",
+   "lemma": "\u0292uud-\u0254",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "fun",
+   "lemma": "\u0259\u0259-\u0292\u025b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "boring",
+   "lemma": "d\u0259-i",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "easy",
+   "lemma": "v\u0259\u0292-\u0254d-e",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "difficult",
+   "lemma": "\u00e6\u00e6-\u0292un",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "normal",
+   "lemma": "w\u0259",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "main",
+   "lemma": "wi-\u0254",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark",
+   "lemma": "v\u025b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark (of liquid)",
+   "lemma": "\u0261\u0254\u0254\u014b-in-e",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark (general)",
+   "lemma": "\u025b\u025b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark (of sky)",
+   "lemma": "\u00e6-i",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "confused",
+   "lemma": "\u0292\u025b\u014b",
+   "category": "feelings"
+  },
+  {
+   "meaning": "angry",
+   "lemma": "uud-e",
+   "category": "feelings"
+  },
+  {
+   "meaning": "annoyed",
+   "lemma": "u-ii-v\u00e6\u00e6n",
+   "category": "feelings"
+  },
+  {
+   "meaning": "embarrased",
+   "lemma": "vi",
+   "category": "feelings"
+  },
+  {
+   "meaning": "disappointed",
+   "lemma": "\u0292ev-\u0259\u0259\u0261-\u0259\u0259v",
+   "category": "feelings"
+  },
+  {
+   "meaning": "hungry",
+   "lemma": "w\u0254\u0254",
+   "category": "feelings"
+  },
+  {
+   "meaning": "nervous",
+   "lemma": "ee\u0292-i",
+   "category": "feelings"
+  },
+  {
+   "meaning": "relieved",
+   "lemma": "\u0254\u0254s",
+   "category": "feelings"
+  },
+  {
+   "meaning": "surprised",
+   "lemma": "\u0254s",
+   "category": "feelings"
+  },
+  {
+   "meaning": "tired",
+   "lemma": "\u0261\u0254h-\u025b\u025bh",
+   "category": "feelings"
+  },
+  {
+   "meaning": "worried",
+   "lemma": "\u0292\u00e6z",
+   "category": "feelings"
+  },
+  {
+   "meaning": "cat",
+   "lemma": "uu-n\u0254\u0254",
+   "category": "nouns"
+  },
+  {
+   "meaning": "dog",
+   "lemma": "\u0261\u025b\u025b",
+   "category": "nouns"
+  },
+  {
+   "meaning": "food",
+   "lemma": "\u0254-\u0259-h\u00e6\u00e6",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "dessert",
+   "lemma": "\u0259\u0259",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "fruit",
+   "lemma": "uun",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "vegetable",
+   "lemma": "\u0292\u0254\u0254s",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "song",
+   "lemma": "ne\u0292-i-i",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "TV show",
+   "lemma": "ee-\u025b\u025bw",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "website",
+   "lemma": "uu",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "movie",
+   "lemma": "v\u025bn-hees-ii",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "book",
+   "lemma": "h\u0259-n\u00e6\u014b",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "sport",
+   "lemma": "\u00e6\u00e6",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "game",
+   "lemma": "wu-nii",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "singer",
+   "lemma": "\u0254\u0254",
+   "category": "nouns_media_subjects_objects"
+  },
+  {
+   "meaning": "actor",
+   "lemma": "w\u0259-id-ii",
+   "category": "nouns_media_subjects_objects"
+  },
+  {
+   "meaning": "thing",
+   "lemma": "\u0292uu\u0261-\u0259-ee",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "relationship",
+   "lemma": "w\u025b",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "information",
+   "lemma": "v\u0254\u0254-\u00e6d",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "research",
+   "lemma": "deed",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "process",
+   "lemma": "\u0259\u0292-e-ii",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "example",
+   "lemma": "zuu-\u0261ee\u0292-h\u0259\u0259",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "part",
+   "lemma": "hi-d\u0259\u0259s",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "task",
+   "lemma": "\u0261\u0259",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "rule",
+   "lemma": "e",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "system",
+   "lemma": "v\u0254-\u0259\u0259v",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "situation",
+   "lemma": "\u0292uuw",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "word",
+   "lemma": "\u025bz",
+   "category": "nouns_objects_language"
+  },
+  {
+   "meaning": "sentence",
+   "lemma": "\u025b",
+   "category": "nouns_objects_language"
+  },
+  {
+   "meaning": "phrase",
+   "lemma": "\u025b-\u0259-dev",
+   "category": "nouns_objects_language"
+  },
+  {
+   "meaning": "person",
+   "lemma": "\u0292u",
+   "category": "nouns_people_subjects_objects"
+  },
+  {
+   "meaning": "restaurant",
+   "lemma": "w\u0254\u0254-deew-s\u0254s",
+   "category": "nouns_places"
+  },
+  {
+   "meaning": "water",
+   "lemma": "n\u00e6-\u00e6\u00e6-wii",
+   "category": "nouns_subjects_objects"
+  },
+  {
+   "meaning": "city",
+   "lemma": "\u00e6-\u0259\u0292-see",
+   "category": "places"
+  },
+  {
+   "meaning": "place",
+   "lemma": "n\u025b\u025bd-\u014bee",
+   "category": "places"
+  },
+  {
+   "meaning": "table",
+   "lemma": "\u0261\u0259",
+   "category": "places_home"
+  },
+  {
+   "meaning": "couch",
+   "lemma": "\u0292\u0254\u0254z",
+   "category": "places_home"
+  },
+  {
+   "meaning": "bed",
+   "lemma": "v\u0259v",
+   "category": "places_home"
+  },
+  {
+   "meaning": "chair",
+   "lemma": "\u0261\u025b\u025b",
+   "category": "places_home"
+  },
+  {
+   "meaning": "universe",
+   "lemma": "\u00e6-\u025b-\u0254",
+   "category": "places_home"
+  },
+  {
+   "meaning": "sun",
+   "lemma": "\u0254\u0254-ni-ee\u0292",
+   "category": "places_home"
+  },
+  {
+   "meaning": "moon",
+   "lemma": "wuu-\u0259\u0259",
+   "category": "places_home"
+  },
+  {
+   "meaning": "field",
+   "lemma": "\u025b\u025bz-\u0261i",
+   "category": "places_home"
+  },
+  {
+   "meaning": "room",
+   "lemma": "\u0261\u00e6n",
+   "category": "places_home"
+  },
+  {
+   "meaning": "street",
+   "lemma": "e",
+   "category": "places_home"
+  },
+  {
+   "meaning": "building",
+   "lemma": "\u0259-\u014b\u0259\u0259",
+   "category": "places_home"
+  },
+  {
+   "meaning": "sofa",
+   "lemma": "u-\u025b\u025b\u014b-\u025b\u025bz",
+   "category": "places_home"
+  },
+  {
+   "meaning": "kitchen",
+   "lemma": "uu",
+   "category": "places_home"
+  },
+  {
+   "meaning": "forest",
+   "lemma": "\u0292\u025b\u0261-uw",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "meadow",
+   "lemma": "een",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "mountain",
+   "lemma": "uu-\u0254\u0254\u0292",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "river",
+   "lemma": "ne\u0292-suz-v\u0259s",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "stream",
+   "lemma": "\u0292\u0254\u0254-\u025bv",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "ocean",
+   "lemma": "n\u025b-dus-\u014b\u0259\u0259",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "sky",
+   "lemma": "z\u025b-\u0259\u0259",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "mist",
+   "lemma": "\u025b\u025b\u0292-n\u0254w-uw",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "according to",
+   "lemma": "\u0292\u025b\u025b-su-nu\u0261",
+   "category": "prepositions"
+  },
+  {
+   "meaning": "who",
+   "lemma": "\u0261ih-z\u0259\u0259",
+   "category": "questions"
+  },
+  {
+   "meaning": "what",
+   "lemma": "wu-ii-ee",
+   "category": "questions"
+  },
+  {
+   "meaning": "where",
+   "lemma": "\u0292ud-\u0261\u025b\u025bz-\u00e6\u00e6h",
+   "category": "questions"
+  },
+  {
+   "meaning": "when",
+   "lemma": "\u0261\u00e6\u00e6n-vuuh",
+   "category": "questions"
+  },
+  {
+   "meaning": "why",
+   "lemma": "\u025bw-\u025b-z\u00e6\u00e6",
+   "category": "questions"
+  },
+  {
+   "meaning": "how",
+   "lemma": "\u025b-uh",
+   "category": "questions"
+  },
+  {
+   "meaning": "which",
+   "lemma": "\u00e6\u00e6d-\u025b\u025b-uv",
+   "category": "questions"
+  },
+  {
+   "meaning": "how much",
+   "lemma": "h\u0254\u0254n-\u0254\u0254-\u0259\u0259",
+   "category": "questions"
+  },
+  {
+   "meaning": "how long",
+   "lemma": "\u014bu-\u00e6d",
+   "category": "questions"
+  },
+  {
+   "meaning": "today",
+   "lemma": "\u0261\u025b\u025b\u0261-z\u0254\u0254s-\u0254v",
+   "category": "time"
+  },
+  {
+   "meaning": "tomorrow",
+   "lemma": "ez-\u0292ii\u0292",
+   "category": "time"
+  },
+  {
+   "meaning": "yesterday",
+   "lemma": "iz-heeh",
+   "category": "time"
+  },
+  {
+   "meaning": "often",
+   "lemma": "den-\u0259\u0259v",
+   "category": "time"
+  },
+  {
+   "meaning": "sometimes",
+   "lemma": "\u025b\u025b",
+   "category": "time"
+  },
+  {
+   "meaning": "now",
+   "lemma": "z\u00e6s",
+   "category": "time"
+  },
+  {
+   "meaning": "still/not yet",
+   "lemma": "vi-ev-z\u0254\u0254",
+   "category": "time"
+  },
+  {
+   "meaning": "again",
+   "lemma": "w\u00e6n-hi",
+   "category": "time"
+  },
+  {
+   "meaning": "because",
+   "lemma": "\u025b",
+   "category": "transitions"
+  },
+  {
+   "meaning": "so",
+   "lemma": "eh-du-\u014be\u014b",
+   "category": "transitions"
+  },
+  {
+   "meaning": "but",
+   "lemma": "\u025bw-\u0261u",
+   "category": "transitions"
+  },
+  {
+   "meaning": "in general",
+   "lemma": "d\u025b\u025bs-s\u0259d",
+   "category": "transitions"
+  },
+  {
+   "meaning": "bring",
+   "lemma": "viis-\u0292eh-\u0259\u0261",
+   "category": "verbs"
+  },
+  {
+   "meaning": "buy",
+   "lemma": "duun",
+   "category": "verbs"
+  },
+  {
+   "meaning": "come",
+   "lemma": "hu-w\u0259\u0259-\u014b\u0259d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "drink",
+   "lemma": "eev-s\u0254\u0254-\u0292\u00e6\u00e6\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "eat",
+   "lemma": "\u00e6",
+   "category": "verbs"
+  },
+  {
+   "meaning": "get",
+   "lemma": "h\u00e6\u00e6-\u00e6\u00e6w-\u0261\u0259\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "give",
+   "lemma": "du-h\u00e6\u00e6\u014b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "go",
+   "lemma": "z\u0259h-\u0254\u0254d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "have",
+   "lemma": "sin-we",
+   "category": "verbs"
+  },
+  {
+   "meaning": "hear",
+   "lemma": "hee-w\u025b\u025b-uu",
+   "category": "verbs"
+  },
+  {
+   "meaning": "know",
+   "lemma": "uw",
+   "category": "verbs"
+  },
+  {
+   "meaning": "like",
+   "lemma": "\u0292ee-z\u025b\u025b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "listen",
+   "lemma": "\u0259h-n\u0259h-z\u025b\u025b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "put",
+   "lemma": "uu-w\u025b-z\u00e6\u014b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "say",
+   "lemma": "ded-s\u0254",
+   "category": "verbs"
+  },
+  {
+   "meaning": "see",
+   "lemma": "\u0254-uu",
+   "category": "verbs"
+  },
+  {
+   "meaning": "speak",
+   "lemma": "\u0254\u0254-\u0259\u0259",
+   "category": "verbs"
+  },
+  {
+   "meaning": "take",
+   "lemma": "d\u0254\u0254-ne",
+   "category": "verbs"
+  },
+  {
+   "meaning": "think",
+   "lemma": "v\u025b-u",
+   "category": "verbs"
+  },
+  {
+   "meaning": "be",
+   "lemma": "wuz-vi-h\u0254s",
+   "category": "verbs"
+  },
+  {
+   "meaning": "use",
+   "lemma": "n\u025b\u0292-uu-\u00e6",
+   "category": "verbs"
+  },
+  {
+   "meaning": "want",
+   "lemma": "z\u0254\u0254-e-sid",
+   "category": "verbs"
+  },
+  {
+   "meaning": "watch",
+   "lemma": "h\u0259\u0259",
+   "category": "verbs"
+  },
+  {
+   "meaning": "write",
+   "lemma": "uuz-i-\u025b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "read",
+   "lemma": "i\u0261-iiz",
+   "category": "verbs"
+  },
+  {
+   "meaning": "recommend",
+   "lemma": "\u0259d-\u0259\u0259n",
+   "category": "verbs"
+  },
+  {
+   "meaning": "analyze",
+   "lemma": "\u0261e-ee",
+   "category": "verbs"
+  },
+  {
+   "meaning": "realize",
+   "lemma": "\u014bez",
+   "category": "verbs"
+  },
+  {
+   "meaning": "describe",
+   "lemma": "z\u025b-weed",
+   "category": "verbs"
+  },
+  {
+   "meaning": "explain",
+   "lemma": "\u0254-\u0254v",
+   "category": "verbs"
+  },
+  {
+   "meaning": "change",
+   "lemma": "uu-\u00e6d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "understand",
+   "lemma": "hi",
+   "category": "verbs"
+  },
+  {
+   "meaning": "function",
+   "lemma": "\u0254",
+   "category": "verbs"
+  },
+  {
+   "meaning": "create",
+   "lemma": "h\u025b\u025b-n\u0259s",
+   "category": "verbs"
+  },
+  {
+   "meaning": "try",
+   "lemma": "n\u00e6n-zuu-h\u0254v",
+   "category": "verbs"
+  },
+  {
+   "meaning": "expect",
+   "lemma": "\u0259h-d\u00e6\u00e6w-h\u00e6\u00e6",
+   "category": "verbs"
+  },
+  {
+   "meaning": "choose",
+   "lemma": "e-u\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "solve",
+   "lemma": "\u0261\u00e6\u00e6-\u0261\u00e6\u00e6h",
+   "category": "verbs"
+  },
+  {
+   "meaning": "love",
+   "lemma": "\u00e6\u00e6-siin",
+   "category": "verbs"
+  },
+  {
+   "meaning": "hate",
+   "lemma": "z\u0259\u0259-s\u025b\u014b-\u025b\u025b\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "hug",
+   "lemma": "\u0261\u0259\u0259d-z\u0254\u0254d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "kiss",
+   "lemma": "w\u025b\u025b-\u025b\u025b\u014b-\u0254\u0254s",
+   "category": "verbs"
+  },
+  {
+   "meaning": "eldritch",
+   "lemma": "zi-\u00e6\u00e6\u0292",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "blast",
+   "lemma": "wiih",
+   "category": "nouns_magic"
+  },
+  {
+   "meaning": "fear",
+   "lemma": "d\u00e6\u00e6-\u0254\u0254w",
+   "category": "verbs"
+  },
+  {
+   "meaning": "dark (malicious)",
+   "lemma": "u-\u0259\u014b",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "power",
+   "lemma": "\u025b\u025b-n\u0259\u0259\u0261-\u0254\u0254",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "minor",
+   "lemma": "\u00e6\u00e6s-\u0261eev-\u0254\u0254\u0261",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "illusion",
+   "lemma": "\u0292\u00e6\u014b-vuu\u0261",
+   "category": "nouns_magic"
+  },
+  {
+   "meaning": "deceive",
+   "lemma": "s\u0254\u0254w-h\u00e6\u00e6\u014b-de",
+   "category": "verbs"
+  },
+  {
+   "meaning": "magic",
+   "lemma": "v\u0254\u0261-\u0254\u0254n-\u014b\u025b",
+   "category": "nouns_magic"
+  },
+  {
+   "meaning": "hellish",
+   "lemma": "\u0254-\u025b\u025b-\u0259\u0259",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "rebuke",
+   "lemma": "u",
+   "category": "verbs"
+  },
+  {
+   "meaning": "interjection of indignation",
+   "lemma": "e-\u00e6\u00e6s-\u014b\u025b",
+   "category": "interjections"
+  },
+  {
+   "meaning": "to do thusly",
+   "lemma": "\u0259\u014b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "unseen",
+   "lemma": "\u00e6\u00e6-z\u00e6w-\u0259",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "servant",
+   "lemma": "\u025b-ee-\u0292\u025b\u025b",
+   "category": "nouns_people"
+  },
+  {
+   "meaning": "marvel",
+   "lemma": "s\u00e6-iiz",
+   "category": "verbs"
+  }
+ ],
+ "all_sentences": [
+  {
+   "meaning": "There is (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "We can see (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "It looks like (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "(Person) is at (place)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "(Person) is (verb)ing",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "(Noun) is (adjective)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "(Noun) is (verb)ing",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "There is a (adjective) (noun)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "(Person) has to (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "(Person) wants to (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "Maybe it\u2019s because (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "First, (\u2026). Then, (\u2026). Finally, (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "Suddenly, (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "(Person) didn\u2019t realize that\u2026",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "I don\u2019t know (\u2026)",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "I think that (sentence).",
+   "lemma": "",
+   "category": "narrative"
+  },
+  {
+   "meaning": "Do you think that (sentence)?",
+   "lemma": "",
+   "category": "narrative"
+  }
+ ],
+ "lexicon": [
+  {
+   "meaning": "With him",
+   "lemma": "v\u0259\u0259n",
+   "category": "locatives_accompaniment"
+  },
+  {
+   "meaning": "With sugar",
+   "lemma": "\u0261\u0254d-\u00e6\u00e6",
+   "category": "locatives_accompaniment"
+  },
+  {
+   "meaning": "Since 1988",
+   "lemma": "ni",
+   "category": "locatives_duration"
+  },
+  {
+   "meaning": "For 2 days/weeks/months/years",
+   "lemma": "\u025b\u025bv",
+   "category": "locatives_duration"
+  },
+  {
+   "meaning": "For 2 hours",
+   "lemma": "us-\u00e6h",
+   "category": "locatives_duration"
+  },
+  {
+   "meaning": "As a teacher",
+   "lemma": "n\u00e6\u00e6",
+   "category": "locatives_identity"
+  },
+  {
+   "meaning": "With a pen",
+   "lemma": "s\u0254",
+   "category": "locatives_instrument"
+  },
+  {
+   "meaning": "By myself",
+   "lemma": "vu-\u014b\u0259-uus",
+   "category": "locatives_instrument"
+  },
+  {
+   "meaning": "By bus",
+   "lemma": "s\u0254\u0261",
+   "category": "locatives_instrument"
+  },
+  {
+   "meaning": "In this book",
+   "lemma": "dee\u0292-\u014b\u00e6-n\u0259v",
+   "category": "locatives_media"
+  },
+  {
+   "meaning": "In that movie/song/picture",
+   "lemma": "ii-i",
+   "category": "locatives_media"
+  },
+  {
+   "meaning": "On TV",
+   "lemma": "\u0261ew-ziz-hu",
+   "category": "locatives_media"
+  },
+  {
+   "meaning": "Over the bridge",
+   "lemma": "\u0254-z\u00e6-iiw",
+   "category": "locatives_movement_crossing"
+  },
+  {
+   "meaning": "Across the street",
+   "lemma": "w\u0254\u0254\u0261",
+   "category": "locatives_movement_crossing"
+  },
+  {
+   "meaning": "Through the tunnel",
+   "lemma": "\u0292\u00e6v",
+   "category": "locatives_movement_crossing"
+  },
+  {
+   "meaning": "To him",
+   "lemma": "sii-\u0259\u0259\u0292",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "To London",
+   "lemma": "h\u00e6\u00e6\u0292-\u0259",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "Into the room",
+   "lemma": "\u014bu\u0292",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "Towards the light",
+   "lemma": "\u0259-\u00e6\u00e6",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "Onto the table",
+   "lemma": "\u0292\u00e6-z\u00e6-vuu",
+   "category": "locatives_movement_destination"
+  },
+  {
+   "meaning": "From London",
+   "lemma": "\u014bi\u0261-he\u0261-\u0259z",
+   "category": "locatives_movement_origin"
+  },
+  {
+   "meaning": "From him to me",
+   "lemma": "\u00e6-\u025b",
+   "category": "locatives_movement_origin"
+  },
+  {
+   "meaning": "Picture of a person",
+   "lemma": "zii",
+   "category": "locatives_movement_source"
+  },
+  {
+   "meaning": "Made by Van Gogh",
+   "lemma": "\u0259w-iiw",
+   "category": "locatives_movement_source"
+  },
+  {
+   "meaning": "On/to the left/to the right/above/below/in front/behind/opposite the table",
+   "lemma": "vee-h\u0254\u0254",
+   "category": "locatives_place_relative"
+  },
+  {
+   "meaning": "Next to you",
+   "lemma": "ze-u",
+   "category": "locatives_place_relative"
+  },
+  {
+   "meaning": "In the water",
+   "lemma": "\u025b\u0261-sii-us",
+   "category": "locatives_place_relative"
+  },
+  {
+   "meaning": "In the kitchen",
+   "lemma": "v\u025b\u025b",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In that building",
+   "lemma": "z\u0254\u0292",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In Mexico",
+   "lemma": "en",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In Tokyo",
+   "lemma": "\u0254\u0254d-\u00e6-d\u00e6h",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In the car/taxi",
+   "lemma": "\u0292\u0254\u0254",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "In the word",
+   "lemma": "h\u025b\u0292-\u0292ii",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "At a party",
+   "lemma": "in-iih-h\u0254\u0254z",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "At school",
+   "lemma": "w\u00e6\u00e6s-h\u0259-\u014buw",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "On the wall",
+   "lemma": "\u025b\u025bv",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "On the first floor",
+   "lemma": "\u0292ew-\u00e6-uuz",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "On the bus",
+   "lemma": "ee",
+   "category": "locatives_place_static"
+  },
+  {
+   "meaning": "For studying",
+   "lemma": "huu-wuu-\u025bn",
+   "category": "locatives_purpose"
+  },
+  {
+   "meaning": "For her",
+   "lemma": "u-wii-niv",
+   "category": "locatives_purpose"
+  },
+  {
+   "meaning": "Over 150",
+   "lemma": "uuw-\u0259-\u0261u",
+   "category": "locatives_quantity"
+  },
+  {
+   "meaning": "Under 3",
+   "lemma": "uu",
+   "category": "locatives_quantity"
+  },
+  {
+   "meaning": "Around 7",
+   "lemma": "\u00e6\u014b",
+   "category": "locatives_quantity"
+  },
+  {
+   "meaning": "In an hour",
+   "lemma": "\u0261\u00e6w-eh",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "3 days/weeks ago",
+   "lemma": "\u0259\u0259-\u00e6\u0261",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "Before 2005",
+   "lemma": "v\u025b\u0292-\u0261\u0254\u0261-w\u025b\u025bv",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "After 2005",
+   "lemma": "\u0259-s\u0254\u0292-\u0259\u0259\u014b",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "From Monday until Friday",
+   "lemma": "i",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "By Monday/4:30",
+   "lemma": "\u00e6\u00e6\u0261-\u014b\u025b-du\u0292",
+   "category": "locatives_sequence"
+  },
+  {
+   "meaning": "On Monday",
+   "lemma": "zis-w\u00e6",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "On the weekend",
+   "lemma": "\u025b\u014b-sis",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "In August",
+   "lemma": "\u025b\u025b-zu-wuu\u014b",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "In 1996",
+   "lemma": "uuh-\u0259",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "In the Morning",
+   "lemma": "\u025b\u025b\u0261-\u0259",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "At night",
+   "lemma": "uu",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "At 4:30",
+   "lemma": "\u0259v",
+   "category": "locatives_time"
+  },
+  {
+   "meaning": "About the woman",
+   "lemma": "zee-w\u00e6w",
+   "category": "locatives_topic"
+  },
+  {
+   "meaning": "here",
+   "lemma": "\u0254-\u0259n",
+   "category": "adverbs_places"
+  },
+  {
+   "meaning": "there",
+   "lemma": "\u0261u",
+   "category": "adverbs_places"
+  },
+  {
+   "meaning": "especially",
+   "lemma": "\u025bz",
+   "category": "degree"
+  },
+  {
+   "meaning": "this",
+   "lemma": "\u0259\u0259-u",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "that",
+   "lemma": "n\u00e6\u00e6-\u0259\u0259v",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "other",
+   "lemma": "\u0292ii\u014b-sii",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "important",
+   "lemma": "\u00e6\u00e6-\u0292u-di",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "interesting",
+   "lemma": "v\u00e6-n\u0259\u0259v",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "good",
+   "lemma": "v\u00e6d-s\u00e6-z\u00e6h",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "bad",
+   "lemma": "ii\u014b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "big",
+   "lemma": "\u0292u-i-ii",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "small",
+   "lemma": "\u0292uud-\u0254",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "fun",
+   "lemma": "\u0259\u0259-\u0292\u025b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "boring",
+   "lemma": "d\u0259-i",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "easy",
+   "lemma": "v\u0259\u0292-\u0254d-e",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "difficult",
+   "lemma": "\u00e6\u00e6-\u0292un",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "normal",
+   "lemma": "w\u0259",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "main",
+   "lemma": "wi-\u0254",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark",
+   "lemma": "v\u025b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark (of liquid)",
+   "lemma": "\u0261\u0254\u0254\u014b-in-e",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark (general)",
+   "lemma": "\u025b\u025b",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "dark (of sky)",
+   "lemma": "\u00e6-i",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "confused",
+   "lemma": "\u0292\u025b\u014b",
+   "category": "feelings"
+  },
+  {
+   "meaning": "angry",
+   "lemma": "uud-e",
+   "category": "feelings"
+  },
+  {
+   "meaning": "annoyed",
+   "lemma": "u-ii-v\u00e6\u00e6n",
+   "category": "feelings"
+  },
+  {
+   "meaning": "embarrased",
+   "lemma": "vi",
+   "category": "feelings"
+  },
+  {
+   "meaning": "disappointed",
+   "lemma": "\u0292ev-\u0259\u0259\u0261-\u0259\u0259v",
+   "category": "feelings"
+  },
+  {
+   "meaning": "hungry",
+   "lemma": "w\u0254\u0254",
+   "category": "feelings"
+  },
+  {
+   "meaning": "nervous",
+   "lemma": "ee\u0292-i",
+   "category": "feelings"
+  },
+  {
+   "meaning": "relieved",
+   "lemma": "\u0254\u0254s",
+   "category": "feelings"
+  },
+  {
+   "meaning": "surprised",
+   "lemma": "\u0254s",
+   "category": "feelings"
+  },
+  {
+   "meaning": "tired",
+   "lemma": "\u0261\u0254h-\u025b\u025bh",
+   "category": "feelings"
+  },
+  {
+   "meaning": "worried",
+   "lemma": "\u0292\u00e6z",
+   "category": "feelings"
+  },
+  {
+   "meaning": "cat",
+   "lemma": "uu-n\u0254\u0254",
+   "category": "nouns"
+  },
+  {
+   "meaning": "dog",
+   "lemma": "\u0261\u025b\u025b",
+   "category": "nouns"
+  },
+  {
+   "meaning": "food",
+   "lemma": "\u0254-\u0259-h\u00e6\u00e6",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "dessert",
+   "lemma": "\u0259\u0259",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "fruit",
+   "lemma": "uun",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "vegetable",
+   "lemma": "\u0292\u0254\u0254s",
+   "category": "nouns_food_objects"
+  },
+  {
+   "meaning": "song",
+   "lemma": "ne\u0292-i-i",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "TV show",
+   "lemma": "ee-\u025b\u025bw",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "website",
+   "lemma": "uu",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "movie",
+   "lemma": "v\u025bn-hees-ii",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "book",
+   "lemma": "h\u0259-n\u00e6\u014b",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "sport",
+   "lemma": "\u00e6\u00e6",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "game",
+   "lemma": "wu-nii",
+   "category": "nouns_media_objects"
+  },
+  {
+   "meaning": "singer",
+   "lemma": "\u0254\u0254",
+   "category": "nouns_media_subjects_objects"
+  },
+  {
+   "meaning": "actor",
+   "lemma": "w\u0259-id-ii",
+   "category": "nouns_media_subjects_objects"
+  },
+  {
+   "meaning": "thing",
+   "lemma": "\u0292uu\u0261-\u0259-ee",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "relationship",
+   "lemma": "w\u025b",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "information",
+   "lemma": "v\u0254\u0254-\u00e6d",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "research",
+   "lemma": "deed",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "process",
+   "lemma": "\u0259\u0292-e-ii",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "example",
+   "lemma": "zuu-\u0261ee\u0292-h\u0259\u0259",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "part",
+   "lemma": "hi-d\u0259\u0259s",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "task",
+   "lemma": "\u0261\u0259",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "rule",
+   "lemma": "e",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "system",
+   "lemma": "v\u0254-\u0259\u0259v",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "situation",
+   "lemma": "\u0292uuw",
+   "category": "nouns_objects"
+  },
+  {
+   "meaning": "word",
+   "lemma": "\u025bz",
+   "category": "nouns_objects_language"
+  },
+  {
+   "meaning": "sentence",
+   "lemma": "\u025b",
+   "category": "nouns_objects_language"
+  },
+  {
+   "meaning": "phrase",
+   "lemma": "\u025b-\u0259-dev",
+   "category": "nouns_objects_language"
+  },
+  {
+   "meaning": "person",
+   "lemma": "\u0292u",
+   "category": "nouns_people_subjects_objects"
+  },
+  {
+   "meaning": "restaurant",
+   "lemma": "w\u0254\u0254-deew-s\u0254s",
+   "category": "nouns_places"
+  },
+  {
+   "meaning": "water",
+   "lemma": "n\u00e6-\u00e6\u00e6-wii",
+   "category": "nouns_subjects_objects"
+  },
+  {
+   "meaning": "city",
+   "lemma": "\u00e6-\u0259\u0292-see",
+   "category": "places"
+  },
+  {
+   "meaning": "place",
+   "lemma": "n\u025b\u025bd-\u014bee",
+   "category": "places"
+  },
+  {
+   "meaning": "table",
+   "lemma": "\u0261\u0259",
+   "category": "places_home"
+  },
+  {
+   "meaning": "couch",
+   "lemma": "\u0292\u0254\u0254z",
+   "category": "places_home"
+  },
+  {
+   "meaning": "bed",
+   "lemma": "v\u0259v",
+   "category": "places_home"
+  },
+  {
+   "meaning": "chair",
+   "lemma": "\u0261\u025b\u025b",
+   "category": "places_home"
+  },
+  {
+   "meaning": "universe",
+   "lemma": "\u00e6-\u025b-\u0254",
+   "category": "places_home"
+  },
+  {
+   "meaning": "sun",
+   "lemma": "\u0254\u0254-ni-ee\u0292",
+   "category": "places_home"
+  },
+  {
+   "meaning": "moon",
+   "lemma": "wuu-\u0259\u0259",
+   "category": "places_home"
+  },
+  {
+   "meaning": "field",
+   "lemma": "\u025b\u025bz-\u0261i",
+   "category": "places_home"
+  },
+  {
+   "meaning": "room",
+   "lemma": "\u0261\u00e6n",
+   "category": "places_home"
+  },
+  {
+   "meaning": "street",
+   "lemma": "e",
+   "category": "places_home"
+  },
+  {
+   "meaning": "building",
+   "lemma": "\u0259-\u014b\u0259\u0259",
+   "category": "places_home"
+  },
+  {
+   "meaning": "sofa",
+   "lemma": "u-\u025b\u025b\u014b-\u025b\u025bz",
+   "category": "places_home"
+  },
+  {
+   "meaning": "kitchen",
+   "lemma": "uu",
+   "category": "places_home"
+  },
+  {
+   "meaning": "forest",
+   "lemma": "\u0292\u025b\u0261-uw",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "meadow",
+   "lemma": "een",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "mountain",
+   "lemma": "uu-\u0254\u0254\u0292",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "river",
+   "lemma": "ne\u0292-suz-v\u0259s",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "stream",
+   "lemma": "\u0292\u0254\u0254-\u025bv",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "ocean",
+   "lemma": "n\u025b-dus-\u014b\u0259\u0259",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "sky",
+   "lemma": "z\u025b-\u0259\u0259",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "mist",
+   "lemma": "\u025b\u025b\u0292-n\u0254w-uw",
+   "category": "places_nature"
+  },
+  {
+   "meaning": "according to",
+   "lemma": "\u0292\u025b\u025b-su-nu\u0261",
+   "category": "prepositions"
+  },
+  {
+   "meaning": "who",
+   "lemma": "\u0261ih-z\u0259\u0259",
+   "category": "questions"
+  },
+  {
+   "meaning": "what",
+   "lemma": "wu-ii-ee",
+   "category": "questions"
+  },
+  {
+   "meaning": "where",
+   "lemma": "\u0292ud-\u0261\u025b\u025bz-\u00e6\u00e6h",
+   "category": "questions"
+  },
+  {
+   "meaning": "when",
+   "lemma": "\u0261\u00e6\u00e6n-vuuh",
+   "category": "questions"
+  },
+  {
+   "meaning": "why",
+   "lemma": "\u025bw-\u025b-z\u00e6\u00e6",
+   "category": "questions"
+  },
+  {
+   "meaning": "how",
+   "lemma": "\u025b-uh",
+   "category": "questions"
+  },
+  {
+   "meaning": "which",
+   "lemma": "\u00e6\u00e6d-\u025b\u025b-uv",
+   "category": "questions"
+  },
+  {
+   "meaning": "how much",
+   "lemma": "h\u0254\u0254n-\u0254\u0254-\u0259\u0259",
+   "category": "questions"
+  },
+  {
+   "meaning": "how long",
+   "lemma": "\u014bu-\u00e6d",
+   "category": "questions"
+  },
+  {
+   "meaning": "today",
+   "lemma": "\u0261\u025b\u025b\u0261-z\u0254\u0254s-\u0254v",
+   "category": "time"
+  },
+  {
+   "meaning": "tomorrow",
+   "lemma": "ez-\u0292ii\u0292",
+   "category": "time"
+  },
+  {
+   "meaning": "yesterday",
+   "lemma": "iz-heeh",
+   "category": "time"
+  },
+  {
+   "meaning": "often",
+   "lemma": "den-\u0259\u0259v",
+   "category": "time"
+  },
+  {
+   "meaning": "sometimes",
+   "lemma": "\u025b\u025b",
+   "category": "time"
+  },
+  {
+   "meaning": "now",
+   "lemma": "z\u00e6s",
+   "category": "time"
+  },
+  {
+   "meaning": "still/not yet",
+   "lemma": "vi-ev-z\u0254\u0254",
+   "category": "time"
+  },
+  {
+   "meaning": "again",
+   "lemma": "w\u00e6n-hi",
+   "category": "time"
+  },
+  {
+   "meaning": "because",
+   "lemma": "\u025b",
+   "category": "transitions"
+  },
+  {
+   "meaning": "so",
+   "lemma": "eh-du-\u014be\u014b",
+   "category": "transitions"
+  },
+  {
+   "meaning": "but",
+   "lemma": "\u025bw-\u0261u",
+   "category": "transitions"
+  },
+  {
+   "meaning": "in general",
+   "lemma": "d\u025b\u025bs-s\u0259d",
+   "category": "transitions"
+  },
+  {
+   "meaning": "bring",
+   "lemma": "viis-\u0292eh-\u0259\u0261",
+   "category": "verbs"
+  },
+  {
+   "meaning": "buy",
+   "lemma": "duun",
+   "category": "verbs"
+  },
+  {
+   "meaning": "come",
+   "lemma": "hu-w\u0259\u0259-\u014b\u0259d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "drink",
+   "lemma": "eev-s\u0254\u0254-\u0292\u00e6\u00e6\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "eat",
+   "lemma": "\u00e6",
+   "category": "verbs"
+  },
+  {
+   "meaning": "get",
+   "lemma": "h\u00e6\u00e6-\u00e6\u00e6w-\u0261\u0259\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "give",
+   "lemma": "du-h\u00e6\u00e6\u014b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "go",
+   "lemma": "z\u0259h-\u0254\u0254d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "have",
+   "lemma": "sin-we",
+   "category": "verbs"
+  },
+  {
+   "meaning": "hear",
+   "lemma": "hee-w\u025b\u025b-uu",
+   "category": "verbs"
+  },
+  {
+   "meaning": "know",
+   "lemma": "uw",
+   "category": "verbs"
+  },
+  {
+   "meaning": "like",
+   "lemma": "\u0292ee-z\u025b\u025b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "listen",
+   "lemma": "\u0259h-n\u0259h-z\u025b\u025b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "put",
+   "lemma": "uu-w\u025b-z\u00e6\u014b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "say",
+   "lemma": "ded-s\u0254",
+   "category": "verbs"
+  },
+  {
+   "meaning": "see",
+   "lemma": "\u0254-uu",
+   "category": "verbs"
+  },
+  {
+   "meaning": "speak",
+   "lemma": "\u0254\u0254-\u0259\u0259",
+   "category": "verbs"
+  },
+  {
+   "meaning": "take",
+   "lemma": "d\u0254\u0254-ne",
+   "category": "verbs"
+  },
+  {
+   "meaning": "think",
+   "lemma": "v\u025b-u",
+   "category": "verbs"
+  },
+  {
+   "meaning": "be",
+   "lemma": "wuz-vi-h\u0254s",
+   "category": "verbs"
+  },
+  {
+   "meaning": "use",
+   "lemma": "n\u025b\u0292-uu-\u00e6",
+   "category": "verbs"
+  },
+  {
+   "meaning": "want",
+   "lemma": "z\u0254\u0254-e-sid",
+   "category": "verbs"
+  },
+  {
+   "meaning": "watch",
+   "lemma": "h\u0259\u0259",
+   "category": "verbs"
+  },
+  {
+   "meaning": "write",
+   "lemma": "uuz-i-\u025b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "read",
+   "lemma": "i\u0261-iiz",
+   "category": "verbs"
+  },
+  {
+   "meaning": "recommend",
+   "lemma": "\u0259d-\u0259\u0259n",
+   "category": "verbs"
+  },
+  {
+   "meaning": "analyze",
+   "lemma": "\u0261e-ee",
+   "category": "verbs"
+  },
+  {
+   "meaning": "realize",
+   "lemma": "\u014bez",
+   "category": "verbs"
+  },
+  {
+   "meaning": "describe",
+   "lemma": "z\u025b-weed",
+   "category": "verbs"
+  },
+  {
+   "meaning": "explain",
+   "lemma": "\u0254-\u0254v",
+   "category": "verbs"
+  },
+  {
+   "meaning": "change",
+   "lemma": "uu-\u00e6d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "understand",
+   "lemma": "hi",
+   "category": "verbs"
+  },
+  {
+   "meaning": "function",
+   "lemma": "\u0254",
+   "category": "verbs"
+  },
+  {
+   "meaning": "create",
+   "lemma": "h\u025b\u025b-n\u0259s",
+   "category": "verbs"
+  },
+  {
+   "meaning": "try",
+   "lemma": "n\u00e6n-zuu-h\u0254v",
+   "category": "verbs"
+  },
+  {
+   "meaning": "expect",
+   "lemma": "\u0259h-d\u00e6\u00e6w-h\u00e6\u00e6",
+   "category": "verbs"
+  },
+  {
+   "meaning": "choose",
+   "lemma": "e-u\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "solve",
+   "lemma": "\u0261\u00e6\u00e6-\u0261\u00e6\u00e6h",
+   "category": "verbs"
+  },
+  {
+   "meaning": "love",
+   "lemma": "\u00e6\u00e6-siin",
+   "category": "verbs"
+  },
+  {
+   "meaning": "hate",
+   "lemma": "z\u0259\u0259-s\u025b\u014b-\u025b\u025b\u0292",
+   "category": "verbs"
+  },
+  {
+   "meaning": "hug",
+   "lemma": "\u0261\u0259\u0259d-z\u0254\u0254d",
+   "category": "verbs"
+  },
+  {
+   "meaning": "kiss",
+   "lemma": "w\u025b\u025b-\u025b\u025b\u014b-\u0254\u0254s",
+   "category": "verbs"
+  },
+  {
+   "meaning": "eldritch",
+   "lemma": "zi-\u00e6\u00e6\u0292",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "blast",
+   "lemma": "wiih",
+   "category": "nouns_magic"
+  },
+  {
+   "meaning": "fear",
+   "lemma": "d\u00e6\u00e6-\u0254\u0254w",
+   "category": "verbs"
+  },
+  {
+   "meaning": "dark (malicious)",
+   "lemma": "u-\u0259\u014b",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "power",
+   "lemma": "\u025b\u025b-n\u0259\u0259\u0261-\u0254\u0254",
+   "category": "demonstratives"
+  },
+  {
+   "meaning": "minor",
+   "lemma": "\u00e6\u00e6s-\u0261eev-\u0254\u0254\u0261",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "illusion",
+   "lemma": "\u0292\u00e6\u014b-vuu\u0261",
+   "category": "nouns_magic"
+  },
+  {
+   "meaning": "deceive",
+   "lemma": "s\u0254\u0254w-h\u00e6\u00e6\u014b-de",
+   "category": "verbs"
+  },
+  {
+   "meaning": "magic",
+   "lemma": "v\u0254\u0261-\u0254\u0254n-\u014b\u025b",
+   "category": "nouns_magic"
+  },
+  {
+   "meaning": "hellish",
+   "lemma": "\u0254-\u025b\u025b-\u0259\u0259",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "rebuke",
+   "lemma": "u",
+   "category": "verbs"
+  },
+  {
+   "meaning": "interjection of indignation",
+   "lemma": "e-\u00e6\u00e6s-\u014b\u025b",
+   "category": "interjections"
+  },
+  {
+   "meaning": "to do thusly",
+   "lemma": "\u0259\u014b",
+   "category": "verbs"
+  },
+  {
+   "meaning": "unseen",
+   "lemma": "\u00e6\u00e6-z\u00e6w-\u0259",
+   "category": "descriptions"
+  },
+  {
+   "meaning": "servant",
+   "lemma": "\u025b-ee-\u0292\u025b\u025b",
+   "category": "nouns_people"
+  },
+  {
+   "meaning": "marvel",
+   "lemma": "s\u00e6-iiz",
+   "category": "verbs"
+  }
+ ],
+ "morphemes": [
+  {
+   "meaning": "adj_to_adverb",
+   "lemma": "\u00e6\u00e6\u0261-n\u00e6\u0292",
+   "category": "derivational"
+  },
+  {
+   "meaning": "adj_to_noun",
+   "lemma": "\u0254n-\u025b",
+   "category": "derivational"
+  },
+  {
+   "meaning": "adj_to_verb",
+   "lemma": "z\u0259\u0259\u0292-diw",
+   "category": "derivational"
+  },
+  {
+   "meaning": "noun_to_adj",
+   "lemma": "\u0261\u0259\u0259-\u025bd",
+   "category": "derivational"
+  },
+  {
+   "meaning": "noun_to_adverb",
+   "lemma": "vu-\u0254\u0254h",
+   "category": "derivational"
+  },
+  {
+   "meaning": "noun_to_verb",
+   "lemma": "\u0292\u00e6\u00e6-e",
+   "category": "derivational"
+  },
+  {
+   "meaning": "relative_clause",
+   "lemma": "zeev-\u0292eew",
+   "category": "derivational"
+  },
+  {
+   "meaning": "verb_to_adj",
+   "lemma": "\u00e6-u",
+   "category": "derivational"
+  },
+  {
+   "meaning": "verb_to_adverb",
+   "lemma": "sed-u",
+   "category": "derivational"
+  },
+  {
+   "meaning": "verb_to_noun",
+   "lemma": "d\u025bh",
+   "category": "derivational"
+  },
+  {
+   "meaning": "singular",
+   "lemma": "uud",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "dual",
+   "lemma": "w\u025b\u025bs",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "many",
+   "lemma": "\u0292uuh-\u0292\u0254\u0254",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "paucal",
+   "lemma": "ii-w\u0259v",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "plural",
+   "lemma": "\u0259\u0259",
+   "category": "noun_number"
+  },
+  {
+   "meaning": "1st",
+   "lemma": "sid-\u00e6z",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "2nd",
+   "lemma": "\u0261\u025bn",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "3rd",
+   "lemma": "w\u00e6\u00e6z-\u025b",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "4th",
+   "lemma": "uu",
+   "category": "noun_person"
+  },
+  {
+   "meaning": "acc",
+   "lemma": "\u0261\u0254",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "dat",
+   "lemma": "\u025b\u025b\u0292",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "gen",
+   "lemma": "ee-u",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "inst",
+   "lemma": "\u014be\u0292-i\u0292",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "loc",
+   "lemma": "\u00e6\u014b",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "nom",
+   "lemma": "\u0254",
+   "category": "noun_case"
+  },
+  {
+   "meaning": "continuous",
+   "lemma": "\u025bn-\u00e6\u00e6",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "experience",
+   "lemma": "uz",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "imperfect",
+   "lemma": "s\u00e6",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "perfect",
+   "lemma": "v\u0254\u0254z",
+   "category": "verb_aspect"
+  },
+  {
+   "meaning": "ability",
+   "lemma": "\u025b\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "conditional",
+   "lemma": "\u00e6n",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "deontic_necessity",
+   "lemma": "i",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "epistemic_necessity",
+   "lemma": "\u0261ih",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "epistemic_possibility",
+   "lemma": "\u014bii-\u0259\u0292",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "hortative",
+   "lemma": "d\u00e6-diih",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "imperative",
+   "lemma": "wii",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_desiderative",
+   "lemma": "s\u00e6\u00e6z",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_dubitative",
+   "lemma": "h\u025bz-u",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_hypothetical",
+   "lemma": "\u0254v",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_likely",
+   "lemma": "s\u025b\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_presumptive",
+   "lemma": "ee-\u014ben",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "irrealis_unlikely",
+   "lemma": "dun",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "know_how_to",
+   "lemma": "v\u025b\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "negative",
+   "lemma": "nu",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "optative",
+   "lemma": "i\u0261-ii",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "permission",
+   "lemma": "\u00e6",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "somehwat_certain",
+   "lemma": "s\u025b",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "somewhat_uncertain",
+   "lemma": "s\u0254\u0254-s\u0259",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "very_certain",
+   "lemma": "wu",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "very_uncertain",
+   "lemma": "u",
+   "category": "verb_modality"
+  },
+  {
+   "meaning": "distant_future",
+   "lemma": "\u0292\u00e6\u00e6-\u00e6\u00e6",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "distant_past",
+   "lemma": "\u0261\u0254\u0254\u0261",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "future",
+   "lemma": "i-hun",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "near_future",
+   "lemma": "\u0254\u0254",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "past",
+   "lemma": "\u0261ee",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "present",
+   "lemma": "\u0292\u0259",
+   "category": "verb_tense"
+  },
+  {
+   "meaning": "recent_past",
+   "lemma": "u\u0261-\u0259",
+   "category": "verb_tense"
+  },
+  {
+   "category": "verb_agreement",
+   "lemma": "\u0254\u014b-zi",
+   "meaning": "verb_"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "nuu\u0292-\u00e6",
+   "meaning": "pronoun_3rdpaucal"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "eev-\u0261\u0254",
+   "meaning": "pronoun_3rdmany"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "h\u0259-\u00e6\u00e6",
+   "meaning": "pronoun_4thmany"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "\u0254\u0254h",
+   "meaning": "pronoun_2ndsingular"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "wu\u0261",
+   "meaning": "pronoun_4thpaucal"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "\u00e6\u0261-e",
+   "meaning": "pronoun_1stdual"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "d\u025b\u025bz",
+   "meaning": "pronoun_2ndpaucal"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "vu-dee",
+   "meaning": "pronoun_1stmany"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "\u0292\u025bn",
+   "meaning": "pronoun_3rddual"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "n\u00e6-ii",
+   "meaning": "pronoun_2ndplural"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "h\u00e6-d\u0254w",
+   "meaning": "pronoun_1stplural"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "we",
+   "meaning": "pronoun_2ndmany"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "d\u0254\u014b-huu",
+   "meaning": "pronoun_3rdsingular"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "\u0259\u0259n",
+   "meaning": "pronoun_3rdplural"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "siz",
+   "meaning": "pronoun_2nddual"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "z\u0254",
+   "meaning": "pronoun_4thsingular"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "w\u00e6\u00e6-\u0254\u014b",
+   "meaning": "pronoun_4thdual"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "siin-w\u00e6",
+   "meaning": "pronoun_4thplural"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "\u025b\u025b-veew",
+   "meaning": "pronoun_1stsingular"
+  },
+  {
+   "category": "pronouns",
+   "lemma": "\u0254\u0254v",
+   "meaning": "pronoun_1stpaucal"
+  }
+ ],
+ "adpositions": [],
+ "initials": [
+  {
+   "xsampa": "n",
+   "ipa": "n",
+   "description": "alveolar nasal",
+   "level": 1
+  },
+  {
+   "xsampa": "d",
+   "ipa": "d",
+   "description": "voiced alveolar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "g",
+   "ipa": "\u0261",
+   "description": "voiced velar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "w",
+   "ipa": "w",
+   "description": "labial-velar approximant",
+   "level": 1
+  },
+  {
+   "xsampa": "h",
+   "ipa": "h",
+   "description": "voiceless glottal fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "v",
+   "ipa": "v",
+   "description": "voiced labiodental fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "N",
+   "ipa": "\u014b",
+   "description": "velar nasal",
+   "level": 1
+  },
+  {
+   "xsampa": "s",
+   "ipa": "s",
+   "description": "voiceless alveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "z",
+   "ipa": "z",
+   "description": "voiced alveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "Z",
+   "ipa": "\u0292",
+   "description": "voiced postalveolar fricative",
+   "level": 1
+  }
+ ],
+ "medials": [
+  {
+   "xsampa": "u",
+   "ipa": "u",
+   "description": "close back rounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "{",
+   "ipa": "\u00e6",
+   "description": "near-open front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "O",
+   "ipa": "\u0254",
+   "description": "open-mid back rounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "@",
+   "ipa": "\u0259",
+   "description": "mid central unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "E",
+   "ipa": "\u025b",
+   "description": "open-mid front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "i",
+   "ipa": "i",
+   "description": "close front unrounded vowel",
+   "level": 1
+  },
+  {
+   "xsampa": "e",
+   "ipa": "e",
+   "description": "close-mid front unrounded vowel",
+   "level": 1
+  }
+ ],
+ "finals": [
+  {
+   "xsampa": "n",
+   "ipa": "n",
+   "description": "alveolar nasal",
+   "level": 1
+  },
+  {
+   "xsampa": "d",
+   "ipa": "d",
+   "description": "voiced alveolar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "g",
+   "ipa": "\u0261",
+   "description": "voiced velar plosive",
+   "level": 1
+  },
+  {
+   "xsampa": "w",
+   "ipa": "w",
+   "description": "labial-velar approximant",
+   "level": 1
+  },
+  {
+   "xsampa": "h",
+   "ipa": "h",
+   "description": "voiceless glottal fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "v",
+   "ipa": "v",
+   "description": "voiced labiodental fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "N",
+   "ipa": "\u014b",
+   "description": "velar nasal",
+   "level": 1
+  },
+  {
+   "xsampa": "s",
+   "ipa": "s",
+   "description": "voiceless alveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "z",
+   "ipa": "z",
+   "description": "voiced alveolar fricative",
+   "level": 1
+  },
+  {
+   "xsampa": "Z",
+   "ipa": "\u0292",
+   "description": "voiced postalveolar fricative",
+   "level": 1
+  }
+ ],
+ "tones": [],
+ "morphology_rules": {
+  "adj_agreement": [
+   null
+  ],
+  "adpositions": "post",
+  "article_agreement": [
+   null
+  ],
+  "derivational": 3,
+  "morpheme_types": [
+   "prefix",
+   "suffix"
+  ],
+  "noun_def_article": false,
+  "noun_indef_article": false,
+  "noun_number": 1,
+  "noun_person": 1,
+  "noun_case": 1,
+  "noun_class": 0,
+  "noun_inflection_class": 0,
+  "noun_morpheme_order": [
+   "noun",
+   "person",
+   "class",
+   "number",
+   "case"
+  ],
+  "pronoun_agreement": [
+   "person",
+   "number"
+  ],
+  "pronouns": true,
+  "verb_agreement": [
+   null
+  ],
+  "verb_agree_with": "both_sep",
+  "verb_morpheme_order": [
+   "evidential",
+   "modality",
+   "aspect",
+   "tense",
+   "verb",
+   "passive",
+   "middle",
+   "causative",
+   "number",
+   "person"
+  ],
+  "verb_aspect": 1,
+  "verb_attitudinal": 0,
+  "verb_copula": false,
+  "verb_evidential": 0,
+  "verb_inflection_class": 0,
+  "verb_modality": 1,
+  "verb_tense": 1,
+  "verb_valence": [
+   "passive",
+   "middle",
+   "causative"
+  ]
+ },
+ "phonology_rules": {
+  "min_syl_per_word": 1,
+  "max_syl_per_word": 3,
+  "min_syl_per_morpheme": 1,
+  "max_syl_per_morpheme": 2,
+  "phon_cons_difficulty": 1,
+  "phon_cons_number": 1,
+  "phon_vowel_difficulty": 1,
+  "phon_vowel_number": 1,
+  "phon_syl_cons": 0,
+  "phon_tone": 0,
+  "phon_cons_length": false,
+  "phon_vowel_length": true,
+  "phon_initial_clusters": 0,
+  "phon_final_clusters": 0,
+  "phon_diphthongs": 0,
+  "phon_non_egressive": 0
+ },
+ "syntax_rules": {
+  "word_order": "sov"
+ },
+ "lexicon_rules": {
+  "onomatopoeia": 0
+ }
+}
